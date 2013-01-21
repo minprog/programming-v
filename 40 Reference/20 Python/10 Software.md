@@ -27,7 +27,6 @@ During the following discussion of IDLE's features, instead of passively reading
 
 You can type Python code directly into this shell, at the '>>>' prompt. Whenever you enter a complete code fragment, it will be executed. For instance, typing:
 
-    {: .language-python }
     >>> print "hello world"
 
 and pressing Enter will cause the following to be displayed:
@@ -36,24 +35,21 @@ and pressing Enter will cause the following to be displayed:
 
 IDLE can also be used as a calculator:
 
-    {: .language-python }
     >>> 4+4
     8
 
 Addition, subtraction, and multiplication operators are built into the Python language. This means you can use them right away. If you want to use a square root in your calculation, you need to import the math module. Do not worry about what it means right now; we will cover this later during the course. Below is an example of square root calculation:
 
-    {: .language-python }
     >>> import math
     >>> math.sqrt(16)
     4.0
 
 Math module allows you to do a number of useful operations:
 
-    {: .language-python }
     >>> import math
     >>> math.pow(3, 2)
     9.0
-    >>> math.cos( 0 )
+    >>> math.cos(0)
     1.0
 
 Note that you only need to execute the import command once after you start IDLE.
@@ -64,7 +60,7 @@ For additional practice, try using IDLE to calculate:
 
 1. 23.0 to the 5th power
 2. Positive root of the following equation:
-   $$34*x^2 + 68*x - 510$$
+   $34*x^2 + 68*x - 510$
    Recall:
-   $$a*x^2 + b*x + c$$
-   $$x1 = ( - b + \frac_(\sqrt_( b*b - 4*a*c ) )( 2*a )$$
+   $a*x^2 + b*x + c$
+   $x1 = -b+(\sqrt_(b*b-4*a*c))/(2*a)$

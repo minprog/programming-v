@@ -52,12 +52,12 @@ There is no course textbook; much of the reading will come from online sources. 
 
 - Zelle, John M. Python Programming: An Introduction to Computer Science. 1st ed. Franklin Beedle & Associates, 2003. ISBN: 9781887902991. (Be sure to get the 1st edition, not the 2nd.)
 - Budd, Timothy. Exploring Python. McGraw-Hill Science, 2009. ISBN: 9780073523378.
-- Shaw, Zed A. [Learn Python the Hard Way](http://learnpythonthehardway.org/book/). (Available to read on the web for free. Also available as [PDF download, ePub download, or printed book]((http://learnpythonthehardway.org/), mailed to you, each at a low cost.)
+- Shaw, Zed A. [Learn Python the Hard Way](http://learnpythonthehardway.org/book/). (Available to read on the web for free. Also available as [PDF download, ePub download, or printed book](http://learnpythonthehardway.org/), mailed to you, each at a low cost.)
 - Swaroop, CH. [A Byte of Python](http://www.ibiblio.org/swaroopch/byteofpython/read/).
 
 ## Techinal Requirements
 
-Since one of the goals of this course is to become familiar with programming, you will need to install and use the Python programming language and the interpreter IDLE. Please see the [Software section](reference/software) for information and instructions on downloading the required software.
+Since one of the goals of this course is to become familiar with programming, you will need to install and use the Python programming language and the interpreter IDLE. Please see the [Software section](//py.mprog.nl/reference/software) for information and instructions on downloading the required software.
 
 Most lectures involve programming demonstrations, and the code involved will generally be posted twice: once as a handout in PDF format, and again as a code file in `.py` (Python) format. Additionally, many problem sets have accompanying code required for completing the assignment, and these are posted as `.py` (Python) files. If you do not have the software installed, you will not be able to properly open and use these files.
 
