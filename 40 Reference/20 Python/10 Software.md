@@ -59,8 +59,7 @@ Note that you only need to execute the import command once after you start IDLE.
 For additional practice, try using IDLE to calculate:
 
 1. 23.0 to the 5th power
-2. Positive root of the following equation:
-   $34*x^2 + 68*x - 510$
+2. Positive root of $34*x^2+68*x-510$.
    Recall:
    $a*x^2 + b*x + c$
-   $x1 = -b+(\sqrt_(b*b-4*a*c))/(2*a)$
+   $x1 = -b+(\sqrt\_(b*b-4*a*c))/(2*a)$
