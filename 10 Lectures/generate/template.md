@@ -10,10 +10,11 @@ Topics covered: {{ topics|join(', ') }}.
 - [iTunes U]({{ iTunes }})
 - [Internet Archive]({{ inetarchive }})
 
-{% if slides is defined or code is defined %}
+{% if resources is defined %}
 ## Resources
-{% if slides is defined %} - [Slides]({{ slides }}) {% endif %}
-{% if code is defined %} - [Slides]({{ code }}) {% endif %}
+{% for item in resources %}
+- [{{ item[0] }}]({{ item[1] }})
+{% endfor %}
 {% endif %}
 
 {% if reading is defined %}

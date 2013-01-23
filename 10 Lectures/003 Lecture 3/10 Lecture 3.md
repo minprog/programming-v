@@ -3,7 +3,7 @@
 <iframe width="640" height="360" src="http://www.youtube.com/embed/ggxY20cXql8?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 
 ## About
-Topics covered: .
+Topics covered: Termination, decrementing functions, exhaustive enumeration, brute force, while loop, for loop, approximation, specifications, bisection search.
 
 ## Download
 

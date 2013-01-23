@@ -84,8 +84,8 @@ LECTURE_6 = \
 , 'iTunes': 'http://itunes.apple.com/us/itunes-u/lecture-6-recursion/id499270153?i=110101040'
 , 'inetarchive': 'http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec06_300k.mp4'
 , 'topics': ['Dictionaries', 'modular abstraction', 'divide and conquer', 'recursion', 'tower of Hanoi', 'base case', 'Fibonacci sequence']
-, 'handout': 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-6-recursion/MIT6_00SCS11_lec06.pdf'
-, 'code': 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-6-recursion/lec06.py'
+, 'resources': [('Lecture code handout', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-6-recursion/MIT6_00SCS11_lec06.pdf'),
+                ('Lecture code', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-6-recursion/lec06.py')]
 }
 
 RECITATION_3 = \
@@ -104,9 +104,9 @@ LECTURE_7 = \
 , 'iTunes': 'http://itunes.apple.com/us/itunes-u/lecture-7-debugging/id499270153?i=110101037'
 , 'inetarchive': 'http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec07_300k.mp4'
 , 'topics': ['Binary', 'float', 'floating point', 'approximations', 'debugging', 'runtime error']
-, 'handout': 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-7-debugging/MIT6_00SCS11_lec07.pdf'
-, 'code': 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-7-debugging/lec07.py'
-, 'slides': 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-7-debugging/MIT6_00SCS11_lec07_slides.pdf'
+, 'resources': [('Lecture code handout', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-7-debugging/MIT6_00SCS11_lec07.pdf'),
+                ('Lecture code', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-7-debugging/lec07.py'),
+                ('Lecture slides', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-7-debugging/MIT6_00SCS11_lec07_slides.pdf')]
 }
 
 RECITATION_4 = \
@@ -130,8 +130,8 @@ LECTURE_8 = \
                 ('showGrowth code', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-8-efficiency-and-order-of-growth/showGrowth.py')]
 }
 
-RECITATION__A = \
-{ 'id' = 'A'
+RECITATION_A = \
+{ 'id': 'A'
 , 'title': 'Algorithm Complexity and Class Review'
 , 'embed': '<iframe width="640" height="360" src="http://www.youtube.com/embed/8I0BmT1ccuw?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>'
 , 'iTunes': 'http://itunes.apple.com/us/itunes-u/optional-recitation-algorithm/id499270153?i=110101590'

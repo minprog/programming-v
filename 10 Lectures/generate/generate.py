@@ -5,7 +5,7 @@ from jinja2 import Template
 import template_values
 
 def generate():
-    for lecture_number in range(1, 4):
+    for lecture_number in range(1, 10):
         directory = '{0} Lecture {1}'.format(str(lecture_number).rjust(3, '0'), lecture_number)
         directory = os.path.join('..', directory)
         if not os.path.isdir(directory):
