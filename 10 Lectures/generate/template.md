@@ -3,7 +3,11 @@
 {{ embed }}
 
 ## About
+{% if topics is defined %}
 Topics covered: {{ topics|join(', ') }}.
+{% elif about is defined %}
+{{ about }}
+{% endif %}
 
 ## Download
 
