@@ -14,26 +14,16 @@ Martijn Stegeman (docent)
 kamer C3.204  
 telefoon 525 5235
 
-### Practicumbegeleiding
-
-volgt...
-
 ## Verwachtingen
 
-Deze cursus bevat 13 programmeeropdrachten en 3 tentamens. Ter
-voorbereiding zijn er 2 colleges per week van ongeveer 1 uur.
+Deze cursus bevat 11 programmeeropdrachten en 3 tentamens. Ter
+voorbereiding zijn er 3 colleges per week van ongeveer 1 uur.
 
 We verwachten dat je alle colleges buiten de practicumuren kijkt. Dat
 kan thuis zijn, of samen met medestudenten in een collegezaal. Je hebt
 de behandelde stof nodig om je opdrachten te maken, maar ook om een
 voldoende te halen op het tentamen (dat duurt natuurlijk nog even, dus
 vergeet het niet!).
-
-## Roostering
-
-Je bent drie keer 4 uur per week vast ingeroosterd samen met andere
-studenten die een soortgelijk programma volgen. Aanwezigheid tijdens
-die drie blokken is verplicht.
 
 ## Begeleiding
 
