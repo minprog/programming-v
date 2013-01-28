@@ -18,8 +18,10 @@ collaboration policy as stated in the course information handout.
 
 ## Installing Python and IDLE
 
-Follow the steps in Getting Python for installing Python and IDLE onto
-the machine you plan to be using this term.
+Follow the steps in
+[Getting Python](http://en.wikibooks.org/wiki/Python_Programming/Getting_Python)
+for installing Python and IDLE onto the machine you plan to be using
+this term.
 
 Familiarize yourself with Python and IDLE using the exercises given in
 the handout. Once you are ready, proceed to the programming part of
@@ -66,8 +68,10 @@ help you distinguish the two components):
 ### Hints:
 
 To see how to use the print command, you may find it convenient to
-look at the input and output section of the Python Wikibook. This will
-show you how to use print statements to print out values of strings.
+look at the
+[input and output](http://en.wikibooks.org/wiki/Python_Programming/Input_and_output)
+section of the Python Wikibook. This will show you how to use print
+statements to print out values of strings.
 
 To see how to read input from a user’s console into the Python
 environment, you may find it convenient to look at the same section
@@ -75,8 +79,9 @@ environment, you may find it convenient to look at the same section
 
 Remember that if you want to hold onto a value, you need to store it
 in a variable (i.e., give it a name to which you can refer when you
-want that value). You may find it convenient to look at the variables
-and strings section of the Python Wikibook.
+want that value). You may find it convenient to look at the
+[variables and strings](http://en.wikibooks.org/wiki/Python_Programming/Variables_and_Strings)
+section of the Python Wikibook.
 
 ## Hand-In Procedure
 1. **Save:** Save your code in `ps0.py`. Do not ignore this step or
@@ -96,4 +101,4 @@ and strings section of the Python Wikibook.
        
        ... your code goes here ...
    
-3. [Submit]()
+3. **Submit** (see tab at the top)
