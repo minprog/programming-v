@@ -13,23 +13,31 @@ Secondly, we will have some fun with Python, and get some practice
 using strings and string operations. We would like you to implement
 the word game hangman as a 1-player game against the computer.
 
-### Getting Started
+## Getting Started
 
 Download and save
 [Problem Set 2](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-6-recursion/ps2.zip):
 a zip file of all the skeleton code you’ll be filling in.
 
-### Polynomials
+## Polynomials
 
 For this problem set, we will be representing polynomials as
 tuples. The index of a number in the tuple represents the power, and
 the value at that index represents the coefficient for that term. So
-for example, the polynomial $$x^4 + 3x^3 + 17.5x^2 - 13.39$$ would be
-represented by the tuple `(-13.39, 0.0, 17.5, 3.0, 1.0)`. This is
-because the tuple represents $$-13.39x^0 + 0.0x^1 + 17.5x^2 + 3.0x^3 +
-1.0x^4$$, which is the same as $$x^4 + 3.0x^3 + 17.5x^2 - 13.39$$.
+for example, the polynomial
 
-### Problem #1
+$$x^4 + 3x^3 + 17.5x^2 - 13.39$$
+
+would be represented by the tuple `(-13.39, 0.0, 17.5, 3.0,
+1.0)`. This is because the tuple represents
+
+$$-13.39x^0 + 0.0x^1 + 17.5x^2 + 3.0x^3 + 1.0x^4$$
+
+which is the same as
+
+$$x^4 + 3.0x^3 + 17.5x^2 - 13.39$$
+
+## Problem #1
 
 Implement the `evaluate_poly` function. This function evaluates a
 polynomial function for the given `x` value. It takes in a tuple of
@@ -50,17 +58,17 @@ value as a `float`.
 	"""
 	# TO DO ...
 
-### Derivatives
+## Derivatives
 
 As stated before, we will need to find $$f'(xn)$$, where $$f'(x)$$ is the
-derivative of $$f(x)$$. Recall that the derivative of a polynomial $$f(x)
-= ax^b$$ is $$f'(x) = abx^b - 1$$, unless $$b=0$$, in which case $$f'(x) =
-0$$. To compute the derivative of a polynomial function with many
+derivative of $$f(x)$$. Recall that the derivative of a polynomial $$f(x) = ax^b$$
+is $$f'(x) = abx^b - 1$$, unless $$b=0$$, in which case $$f'(x) = 0$$.
+To compute the derivative of a polynomial function with many
 terms, you just do the same thing to every term individually. For
-example, if $$f(x) = x4 + 3x^3 + 17.5x^2 - 13.39$$, then $$f'(x) = 4x^3 +
-9x^2 + 35^x$$.
+example, if $$f(x) = x4 + 3x^3 + 17.5x^2 - 13.39$$, then
+$$f'(x) = 4x^3 + 9x^2 + 35^x$$.
 
-### Problem #2
+## Problem #2
 
 Implement the `compute_deriv` function. This function computes the
 derivative of a polynomial function. It takes in a tuple of numbers
@@ -80,7 +88,7 @@ represented by a tuple.
 	"""
 	# TO DO ...
 
-### Newton’s Method
+## Newton’s Method
 
 Newton’s method (also known as the Newton-Raphson method) is a
 successive approximation method for finding the roots of a
@@ -95,8 +103,10 @@ Here is how Newton’s method works:
 calculating $$f(x_0)$$. If $$f(x_0)$$ is within some small value epsilon
 of 0, we say that's good enough and call $$x_0$$ a root.
 3. If $$f(x_0)$$ is not good enough, we need to come up with a better
-guess, $$x_1$$. $$x_1$$ is calculated by the equation: $$x_1 = x_0 -
-f(x_0)/(f'(x_0))$$.
+guess, $$x_1$$. $$x_1$$ is calculated by the equation:
+    
+    $$x_1 = x_0 - f(x_0)/(f'(x_0))$$.
+    
 4. We check to see if x_1 is close enough to a root. If it is not, we
 make a better guess $$x_2$$ and check that. And so on and so on. For
 every $$x_n$$ that is not close enough to a root, we replace it with
@@ -106,7 +116,7 @@ a root. We repeat until we finally find a value close to a root.
 For simplicity, we will only be using polynomial functions in this
 problem set.
 
-###  Problem 3. Implementing Newton’s Method
+##  Problem 3. Implementing Newton’s Method
 
 Implement the `compute_root` function. This function applies Newton's
 method of successive approximation as described above to find a root
@@ -149,7 +159,7 @@ wordgame Hangman. For those of you who are unfamiliar with the rules,
 you may read all about it here. In this problem, the second player
 will always be the computer, who will be picking a word at random.
 
-### Problem #4
+## Problem #4
 
 Implement a function, `hangman()`, that will start up and carry out an
 interactive Hangman game between a player and the computer.
