@@ -1,0 +1,5 @@
+name: ps1
+required:
+  - ps1a.py
+  - ps1b.py
+  - ps1c.py
