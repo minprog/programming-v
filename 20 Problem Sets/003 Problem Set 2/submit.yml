@@ -1,0 +1,4 @@
+name: ps2
+required:
+  - ps2_newton.py
+  - ps2_hangman.py
