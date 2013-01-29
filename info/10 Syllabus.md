@@ -5,6 +5,8 @@ in Python, een eenvoudige taal met vele mogelijkheden. Je leert over
 de basis van het programmeren, maar je gaat ook kijken naar
 toepassingen in andere vakgebieden.
 
+![Roomba photograph courtesy of Stephanie Booth on Flickr; virus image courtesy of the CDC; Boggle photograph courtesy of Angelina on Flickr; MIT campus map image courtesy of RahulG on Flickr.](mit600.jpg)
+
 ## Contact
 
 ### Voor ziekmelden, overleg over de voortgang, individuele afspraken
