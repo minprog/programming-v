@@ -1,6 +1,6 @@
-# Studiehandleiding
-
 ![Roomba photograph courtesy of Stephanie Booth on Flickr; virus image courtesy of the CDC; Boggle photograph courtesy of Angelina on Flickr; MIT campus map image courtesy of RahulG on Flickr.](mit600.jpg){:.inline }
+
+# Studiehandleiding
 
 Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren
 in Python, een eenvoudige taal met vele mogelijkheden. Je leert over
