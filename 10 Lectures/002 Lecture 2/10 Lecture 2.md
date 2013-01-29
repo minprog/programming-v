@@ -2,13 +2,15 @@
 
 <iframe width="640" height="360" src="http://www.youtube.com/embed/SLvTCHhu5SE?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 
-## About
-Topics covered: IDLE, types of objects, operators, overloading, commands, variables, assignment, input, straight line and branching programs, looping constructs, Turing completeness, conditionals, nesting.
-
 ## Download
 
 - [iTunes U](http://itunes.apple.com/us/itunes-u/lecture-2-core-elements-program/id499270153?i=110101057)
 - [Internet Archive](http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec02_300k.mp4)
+
+## About
+
+Topics covered: IDLE, types of objects, operators, overloading, commands, variables, assignment, input, straight line and branching programs, looping constructs, Turing completeness, conditionals, nesting.
+
 
 
 ## Resources

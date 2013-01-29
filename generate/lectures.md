@@ -2,17 +2,17 @@
 
 {{ embed }}
 
+## Download
+
+- [iTunes U]({{ iTunes }})
+- [Internet Archive]({{ inetarchive }})
+
 ## About
 {% if topics is defined %}
 Topics covered: {{ topics|join(', ') }}.
 {% elif about is defined %}
 {{ about }}
 {% endif %}
-
-## Download
-
-- [iTunes U]({{ iTunes }})
-- [Internet Archive]({{ inetarchive }})
 
 {% if resources is defined %}
 ## Resources

@@ -2,13 +2,15 @@
 
 <iframe width="640" height="360" src="http://www.youtube.com/embed/WbWb0u8bJrU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 
-## About
-Topics covered: Dictionaries, modular abstraction, divide and conquer, recursion, tower of Hanoi, base case, Fibonacci sequence.
-
 ## Download
 
 - [iTunes U](http://itunes.apple.com/us/itunes-u/lecture-6-recursion/id499270153?i=110101040)
 - [Internet Archive](http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec06_300k.mp4)
+
+## About
+
+Topics covered: Dictionaries, modular abstraction, divide and conquer, recursion, tower of Hanoi, base case, Fibonacci sequence.
+
 
 
 ## Resources

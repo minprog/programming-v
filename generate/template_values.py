@@ -334,7 +334,7 @@ LECTURE_22 = \
 , 'iTunes': 'http://itunes.apple.com/us/itunes-u/lecture-22-using-graphs-to/id499270153?i=110101043'
 , 'inetarchive': 'http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec22_300k.mp4'
 , 'topics': ['Dynamic programming', 'optimal path', 'overlapping subproblems', 'weighted edges', 'specifications', 'restrictions', 'efficiency', 'pseudo-polynomials']
-, 'resources', [('Lecture code handout', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-22-using-graphs-to-model-problems-part-2/MIT6_00SCS11_lec22.pdf'),
+, 'resources': [('Lecture code handout', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-22-using-graphs-to-model-problems-part-2/MIT6_00SCS11_lec22.pdf'),
                 ('Lecture code', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-22-using-graphs-to-model-problems-part-2/lec22.py')]
 }
 

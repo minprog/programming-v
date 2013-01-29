@@ -2,13 +2,15 @@
 
 <iframe width="640" height="360" src="http://www.youtube.com/embed/Mx0uXIBD-yA?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 
-## About
-Topics covered: Decomposition, module, function, abstraction, formal parameter, actual parameter, argument, assert, scope, mapping, stack, last in first out, LIFO, strings, slicing.
-
 ## Download
 
 - [iTunes U](http://itunes.apple.com/us/itunes-u/lecture-4-machine-interpretation/id499270153?i=110101059)
 - [Internet Archive](http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec04_300k.mp4)
+
+## About
+
+Topics covered: Decomposition, module, function, abstraction, formal parameter, actual parameter, argument, assert, scope, mapping, stack, last in first out, LIFO, strings, slicing.
+
 
 
 ## Resources
