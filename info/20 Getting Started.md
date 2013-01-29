@@ -28,7 +28,7 @@ and problem sets) through Efficiency and Order of Growth.
 
 Welkom bij Programmeren in Python!
 
-Tijdens de practica ga je problem sets 0 t/m ??? van MIT 6.00sc doen
+Tijdens de practica ga je problem sets 0 t/m 26 van MIT 6.00sc doen
 en je zal een tentamen maken over de hoorcolleges.
 
 De hoorcolleges kijk je op video. Doe dit thuis of onderweg! Daarnaast
