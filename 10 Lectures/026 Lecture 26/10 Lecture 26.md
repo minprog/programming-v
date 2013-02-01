@@ -19,3 +19,17 @@ Topics covered: Careers in computer science, computational thinking, abstraction
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+

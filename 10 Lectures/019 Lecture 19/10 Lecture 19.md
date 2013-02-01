@@ -23,3 +23,17 @@ Topics covered: Knapsack problem, local and global optima, supervised and unsupe
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+

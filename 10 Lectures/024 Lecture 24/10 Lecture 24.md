@@ -23,3 +23,17 @@ Topics covered: Statistics, plotting, correlation, causation, bias, logical fall
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+

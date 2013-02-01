@@ -25,3 +25,17 @@ Topics covered: Arrays, curve fitting, numpy, pylab, least squares fit, predicti
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+

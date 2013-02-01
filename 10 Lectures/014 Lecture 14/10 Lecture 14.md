@@ -21,3 +21,17 @@ Topics covered: Plotting, randomness, probability, Pascal's algorithm, Monte Car
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+

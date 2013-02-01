@@ -23,3 +23,17 @@ Topics covered: Queuing network simulations, Poisson distributions, wait time, q
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+

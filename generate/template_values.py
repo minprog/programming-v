@@ -15,6 +15,14 @@ LECTURE_1 = \
 , 'inetarchive': 'http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec01_300k.mp4'
 , 'topics': ['Purposes of the course', 'declarative and imperative knowledge', 'flow of control', 'algorithms', 'fixed program and stored program computers', 'termination conditions', 'interpretation', 'compilation', 'syntax', 'static semantics', 'semantics', 'and types of errors']
 , 'resources': [('Lecture slides', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-1-introduction-to-6.00/MIT6_00SCS11_lec01_slides.pdf')]
+, 'questions': [('What is the difference between declarative and imperative knowledge?',
+                 'Declarative knowledge is statements of fact; imperative knowledge is "how to" knowledge.'),
+                ('What is the advantage of a stored-program computer?',
+                 'It\'s far more versatile than a fixed-program computer, since it interprets a program given to it and carries out those instructions, as opposed to being built to do one thing.'),
+                ('What are the syntax, static semantics, and semantics of a language?',
+                 'Syntax determines whether a string is legal, static semantics determine whether the string has meaning, and semantics assigns a meaning to a legal sentence (assuming no static semantic errors).'),
+                ('What sorts of errors can occur in a program?',
+                 'It can crash, run forever, or give a wrong answer.')]
 }
 
 LECTURE_2 = \
@@ -26,6 +34,18 @@ LECTURE_2 = \
 , 'topics': ['IDLE', 'types of objects', 'operators', 'overloading', 'commands', 'variables', 'assignment', 'input', 'straight line and branching programs', 'looping constructs', 'Turing completeness', 'conditionals', 'nesting']
 , 'resources': [('Lecture code handout', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-2-core-elements-of-a-program/MIT6_00SCS11_lec02.pdf'),
                 ('Lecture code', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-2-core-elements-of-a-program/lec02.py')]
+, 'questions': [("What is a 'type'?",
+                 'Types are classifications of objects, which is what Python, as an OOP language, deals with. They determine how those objects are dealt with (for example, adding two integers results in an integer, two strings results in a concatenated string, and an integer and a string results in an error).'),
+                ("What is an 'expression'?",
+                 'An expression is composed of objects (or operands) and operators, and can be interpreted into a value.'),
+                ('What is a type conversion?',
+                 "A type conversion turns one type of object into another. For example, applying str to the integer 3 results in the string '3'."),
+                ('What is a keyword?',
+                 'Keywords are words that have special meanings within a language. Many editors will display them in special colors. These words cannot be used as variables.'),
+                ('What is the difference between a straight line program and a branching program?',
+                 'A straight line program simply goes through and carries out each step. A branching program will do different things depending on conditions set within the program.'),
+                ('What is a conditional?',
+                 'A conditional statement starts with an if statement, and can also include elif and else statements.')]                
 }
 
 RECITATION_1 = \
@@ -44,6 +64,10 @@ LECTURE_3 = \
 , 'iTunes': 'http://itunes.apple.com/us/itunes-u/lecture-3-problem-solving/id499270153?i=110101035'
 , 'inetarchive': 'http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec03_300k.mp4'
 , 'topics': ['Termination', 'decrementing functions', 'exhaustive enumeration', 'brute force', 'while loop', 'for loop', 'approximation', 'specifications', 'bisection search']
+, 'questions': [('What does it mean for a program to terminate?',
+                 "Either the program will return a value, or throw an exception. A program that does not terminate runs indefinitely, typically because it's gotten stuck in a loop."),
+                ('What is a for loop?',
+                 'A for loop takes some sort of iterable object (a list, tuple, or string) and performs its function once for each item in that object. Any function that depends on the input can have a different result at each step, since the input is the current item.')]
 }
 
 LECTURE_4 = \
@@ -55,6 +79,12 @@ LECTURE_4 = \
 , 'topics': ['Decomposition', 'module', 'function', 'abstraction', 'formal parameter', 'actual parameter', 'argument', 'assert', 'scope', 'mapping', 'stack', 'last in first out', 'LIFO', 'strings', 'slicing']
 , 'resources': [('Lecture code handout', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-4-machine-interpretation-of-a-program/MIT6_00SCS11_lec04.pdf'),
                ('Lecture code', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-4-machine-interpretation-of-a-program/lec04.py')]
+, 'questions': [('What is decomposition?',
+                 'Decomposition breaks a problem into self-contained, manageable parts'),
+                ('What is abstraction?',
+                 'Abstraction allows us to ignore the details of a piece of code, and use it as a black box - input x, get y.'),
+                ('What is the difference between formal and actual parameters?',
+                 'Formal parameter are the names of variables used inside a procedure; actual parameters (or arguments) are the values assigned to those names.')]
 }
 
 RECITATION_2 = \
@@ -75,6 +105,14 @@ LECTURE_5 = \
 , 'topics': ['Tuples', 'lists', 'dictionaries', 'methods', 'identifiers', 'modifying objects', 'aliasing', 'mutability']
 , 'resources': [('Lecture code handout', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-5-objects-in-python/MIT6_00SCS11_lec05.pdf'),
                ('Lecture code', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-5-objects-in-python/lec05.py')]
+, 'questions': [('What is mutability?',
+                 "A mutable object's values can be changed; we must be careful when working with mutable objects not to inadvertently change them."),
+                ('What is the important difference between a list and a tuple?',
+                 'Tuples are immutable (as are strings).'),
+                ('What is cloning?',
+                 'Cloning creates a copy of a mutable object, so that the values can be manipulated without mutating the original object.'),
+                ('What are the important aspects of a dictionary?',
+                 'A dictionary mutable, with immutable keys, and unordered.')]
 }
 
 LECTURE_6 = \
@@ -86,6 +124,12 @@ LECTURE_6 = \
 , 'topics': ['Dictionaries', 'modular abstraction', 'divide and conquer', 'recursion', 'tower of Hanoi', 'base case', 'Fibonacci sequence']
 , 'resources': [('Lecture code handout', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-6-recursion/MIT6_00SCS11_lec06.pdf'),
                 ('Lecture code', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-6-recursion/lec06.py')]
+, 'questions': [('What is recursion?',
+                 'Recursion, or "divide-and-conquer", allows us to define a function that calls itself to solve a problem by breaking it into simpler cases.'),
+                ('What is a recursive case?',
+                 'A recursive case calls the recursive procedure on a simpler case (usually a part of the input).'),
+                ('What is a base case?',
+                 'A base case is necessary in recusion; it determines when the procedure returns a value (or terminates), rather than contiuing the recursive process.')]
 }
 
 RECITATION_3 = \
@@ -107,6 +151,12 @@ LECTURE_7 = \
 , 'resources': [('Lecture code handout', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-7-debugging/MIT6_00SCS11_lec07.pdf'),
                 ('Lecture code', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-7-debugging/lec07.py'),
                 ('Lecture slides', 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-7-debugging/MIT6_00SCS11_lec07_slides.pdf')]
+, 'questions': [('Why do computers use binary representations?',
+                 "It's easy to build hardware with two states, on and off."),
+                ("Why shouldn't we test for equality with floats?",
+                 "Because computers use binary, floats are actually very close approximations of the actual values. Testing for equality can result in an unexpected error, so it's better to determine whether two numbers are close enough for our purpose rather than precisely equal."),
+                ("When debugging, how can you ensure that the values in your program are the ones you think they are?",
+                 "Use print statements.")]
 }
 
 RECITATION_4 = \

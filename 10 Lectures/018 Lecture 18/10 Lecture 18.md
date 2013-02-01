@@ -25,3 +25,17 @@ Topics covered: Modeling, optimization, greedy algorithms, 0-1 knapsack problem.
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+

@@ -21,3 +21,17 @@ This lecture begins a deeper look at simulations with an introduction to randomn
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+

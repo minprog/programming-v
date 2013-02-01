@@ -21,3 +21,17 @@ Topics covered: Dynamic programming, optimal path, overlapping subproblems, weig
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+

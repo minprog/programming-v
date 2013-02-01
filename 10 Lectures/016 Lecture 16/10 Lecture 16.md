@@ -21,3 +21,17 @@ Topics covered: Gaussian distributions, analytical models, simulations, exponent
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+

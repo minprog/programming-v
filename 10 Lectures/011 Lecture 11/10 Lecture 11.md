@@ -21,3 +21,17 @@ Topics covered: Object-oriented programming (OOP), abstract data types, specific
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+

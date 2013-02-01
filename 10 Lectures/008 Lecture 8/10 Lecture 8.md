@@ -23,3 +23,17 @@ Topics covered: Efficiency, problem reduction, RAM, best case, worst case, expec
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+

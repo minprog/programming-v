@@ -21,3 +21,17 @@ Topics covered: Hashing, bucket, collision, linear rehash, exceptions, classes, 
 
 
 
+<script>
+function hide(id)
+{
+    document.getElementById(id).style.display = 'none';
+}
+
+function show(id)
+{
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+
+
