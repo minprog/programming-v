@@ -37,7 +37,9 @@ function show(id)
 ## Check Yourself
 {% for question, answer in questions %}
 {{ question }}
-<a href="#" onclick="show('answer-{{ loop.index }}'); return false;">show</a><div id="answer-{{ loop.index }}" style="display: none;">{{ answer }}</div>
+<a href="#" onclick="show('answer-{{ loop.index }}'); return false;">show</a>
+
+<div id="answer-{{ loop.index }}" style="display: none;">{{ answer }}</div>
 {% endfor %}
 {% endif %}
 

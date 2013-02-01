@@ -37,13 +37,19 @@ function show(id)
 ## Check Yourself
 
 What is decomposition?
-<a href="#" onclick="show('answer-1'); return false;">show</a><div id="answer-1" style="display: none;">Decomposition breaks a problem into self-contained, manageable parts</div>
+<a href="#" onclick="show('answer-1'); return false;">show</a>
+
+<div id="answer-1" style="display: none;">Decomposition breaks a problem into self-contained, manageable parts</div>
 
 What is abstraction?
-<a href="#" onclick="show('answer-2'); return false;">show</a><div id="answer-2" style="display: none;">Abstraction allows us to ignore the details of a piece of code, and use it as a black box - input x, get y.</div>
+<a href="#" onclick="show('answer-2'); return false;">show</a>
+
+<div id="answer-2" style="display: none;">Abstraction allows us to ignore the details of a piece of code, and use it as a black box - input x, get y.</div>
 
 What is the difference between formal and actual parameters?
-<a href="#" onclick="show('answer-3'); return false;">show</a><div id="answer-3" style="display: none;">Formal parameter are the names of variables used inside a procedure; actual parameters (or arguments) are the values assigned to those names.</div>
+<a href="#" onclick="show('answer-3'); return false;">show</a>
+
+<div id="answer-3" style="display: none;">Formal parameter are the names of variables used inside a procedure; actual parameters (or arguments) are the values assigned to those names.</div>
 
 
 

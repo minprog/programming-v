@@ -35,16 +35,24 @@ function show(id)
 ## Check Yourself
 
 What is the difference between declarative and imperative knowledge?
-<a href="#" onclick="show('answer-1'); return false;">show</a><div id="answer-1" style="display: none;">Declarative knowledge is statements of fact; imperative knowledge is "how to" knowledge.</div>
+<a href="#" onclick="show('answer-1'); return false;">show</a>
+
+<div id="answer-1" style="display: none;">Declarative knowledge is statements of fact; imperative knowledge is "how to" knowledge.</div>
 
 What is the advantage of a stored-program computer?
-<a href="#" onclick="show('answer-2'); return false;">show</a><div id="answer-2" style="display: none;">It's far more versatile than a fixed-program computer, since it interprets a program given to it and carries out those instructions, as opposed to being built to do one thing.</div>
+<a href="#" onclick="show('answer-2'); return false;">show</a>
+
+<div id="answer-2" style="display: none;">It's far more versatile than a fixed-program computer, since it interprets a program given to it and carries out those instructions, as opposed to being built to do one thing.</div>
 
 What are the syntax, static semantics, and semantics of a language?
-<a href="#" onclick="show('answer-3'); return false;">show</a><div id="answer-3" style="display: none;">Syntax determines whether a string is legal, static semantics determine whether the string has meaning, and semantics assigns a meaning to a legal sentence (assuming no static semantic errors).</div>
+<a href="#" onclick="show('answer-3'); return false;">show</a>
+
+<div id="answer-3" style="display: none;">Syntax determines whether a string is legal, static semantics determine whether the string has meaning, and semantics assigns a meaning to a legal sentence (assuming no static semantic errors).</div>
 
 What sorts of errors can occur in a program?
-<a href="#" onclick="show('answer-4'); return false;">show</a><div id="answer-4" style="display: none;">It can crash, run forever, or give a wrong answer.</div>
+<a href="#" onclick="show('answer-4'); return false;">show</a>
+
+<div id="answer-4" style="display: none;">It can crash, run forever, or give a wrong answer.</div>
 
 
 
