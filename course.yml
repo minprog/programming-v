@@ -11,4 +11,4 @@ security:
     professors:
         - mstegem1
         - dsmit1
-        - "5651735"
+        - !str 5651735
