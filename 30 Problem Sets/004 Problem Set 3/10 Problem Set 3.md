@@ -1,10 +1,10 @@
 # Wordgames
 
 **Notice**: from now on, you are required to format your code
-  according to the
-  [style guide](http://py.mprog.nl/reference/style-guide). If you
-  already submitted this problem set, you must reformat your code and
-  submit again!
+  according to the [official style guide]. If you already submitted
+  this problem set, you must reformat your code and submit again!
+
+[official style guide]: http://www.python.org/dev/peps/pep-0008/ "PEP 8"
 
 In this problem set, you’ll implement two versions of the 6.00
 wordgame! Don’t be intimidated by the length of this problem set. It’s
