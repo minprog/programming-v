@@ -9,14 +9,22 @@ major, to feel justifiably confident of their ability to write small programs
 that allow them to accomplish useful goals. The class will use the Python
 programming language.
 
-## Contact
+## Staff
 
-### Voor ziekmelden, overleg over de voortgang, individuele afspraken
+To contact the course's staff about almost anything, feel free to e-mail
+<help@mprog.nl>. We'll usually respond within 24 hours.
 
-Martijn Stegeman (docent)  
+### Course coordinator
+
+Martijn Stegeman  
 <stegeman@uva.nl>  
-kamer C3.204  
-telefoon 525 5235
+room: C3.204  
+phone: 525 5235
+
+### Course maintainer
+
+Tim Doolan  
+<help@mprog.nl>
 
 ## About this course ##
 
