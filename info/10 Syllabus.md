@@ -1,11 +1,13 @@
 ![Roomba photograph courtesy of Stephanie Booth on Flickr; virus image courtesy of the CDC; Boggle photograph courtesy of Angelina on Flickr; MIT campus map image courtesy of RahulG on Flickr.](mit600.jpg){:.inline }
 
-# Studiehandleiding
+# Syllabus
 
-Welkom bij deze cursus *Inleiding Programmeren*. We gaan programmeren
-in Python, een eenvoudige taal met vele mogelijkheden. Je leert over
-de basis van het programmeren, maar je gaat ook kijken naar
-toepassingen in andere vakgebieden.
+This subject is aimed at students with little or no programming experience. It
+aims to provide students with an understanding of the role computation can
+play in solving problems. It also aims to help students, regardless of their
+major, to feel justifiably confident of their ability to write small programs
+that allow them to accomplish useful goals. The class will use the Python
+programming language.
 
 ## Contact
 
@@ -16,84 +18,148 @@ Martijn Stegeman (docent)
 kamer C3.204  
 telefoon 525 5235
 
-## Verwachtingen
+## About this course ##
 
-Deze cursus bevat 11 programmeeropdrachten en 3 tentamens. Ter
-voorbereiding zijn er 3 colleges per week van ongeveer 1 uur.
+Let's start with the strategic goals of this course:
 
-We verwachten dat je alle colleges buiten de practicumuren kijkt. Dat
-kan thuis zijn, of samen met medestudenten in een collegezaal. Je hebt
-de behandelde stof nodig om je opdrachten te maken, maar ook om een
-voldoende te halen op het tentamen (dat duurt natuurlijk nog even, dus
-vergeet het niet!).
+- Help students (who may or may not intend to major in computer science) to
+  feel justifiably confident of their ability to write small programs.
 
-## Begeleiding
+- Map scientific problems into computational frameworks.
 
-Er zijn tijdens kantooruren altijd één of meer assistenten
-aanwezig. Natuurlijk kun je ook langskomen om vragen stellen buiten de
-tijden dat je vast bent ingeroosterd. Ook is er voor de zaaltjes
-genoeg plek om te werken.
+- Position students so that they can compete for jobs by providing competence
+  and confidence in computational problem solving.
+
+- Prepare college freshmen and sophomores who have no prior programming
+  experience or knowledge of computer science for an easier entry into
+  computer science or electrical engineering majors.
+
+- Prepare students from other majors to make profitable use of computational
+  methods in their chosen field.
+
+Programming in Python can be summarized with these six major topics or objectives:
+
+- Learning a language for expressing computations: Python
+
+- Learning about the process of writing and debugging a program
+
+- Learning about the process of moving from a problem statement to a
+  computational formulation of a method for solving the problem
+
+- Learning a basic set of "recipes" — algorithms
+
+- Learning how to use simulations to shed light on problems that don't easily
+  succumb to closed form solutions
+
+- Learning about how to use computational tools to help model and understand
+  data
+
+Programming in Python is designed to help you become skillful at making the
+computer do what you want it to do. Once you acquire this skill, your first
+instinct when confronted with many tasks will be to write a program to do the
+task for you. Said another way, we want to help you learn to apply
+computational modes of thought to frame problems, and to guide the process of
+deducing information in a computational manner.
+
+This means that the primary knowledge you will take away from this course is
+the art of computational problem solving. Unlike many introductory level
+courses, having an ability to memorize facts will be of little help in
+Programming in Python. This course is about learning to solve problems, not
+learning facts. (This, by the way, is exactly why all exams are open book.)
+
+## Prerequisites
+
+This course is aimed at students with little or no prior programming
+experience but a desire to understand computational approaches to problem
+solving. Now, by definition, none of you are under-qualified for this course.
+In terms of being over-qualified -- if you have a lot of prior programming
+experience, we really don't want you wasting your time, and in this case we
+would suggest that you talk to us about how well this class suits your needs,
+and to discuss other options. In addition, we want to maintain a productive
+educational environment, and thus we don't want over-qualified students making
+other students feel inadequate, when in fact they are only inexperienced.
+
+Since computer programming involves computational modes of thinking, it will
+help to have some mathematical and logical aptitude. You should be confident
+with your math skills up to pre-calculus.
+
+## Expectations
+
+This course consists of 11 problem sets and 3 quizzes. We expect you to watch
+all lectures outside of the lab setting. We expect that you make all problem
+sets. We expect that you pass all three quizzes.
+
+## Getting help
+
+The lab is open five days a week from 9am until 5pm. You're welcome to joins
+us anytime and ask us lots of difficult (or simpler!) questions.
 
 ## Deadlines
 
-Elke vrijdag om 17:00 moet je uiterlijk je programma hebben ingeleverd
-via deze site. Alleen dan wordt het dat weekend nagekeken.
+Your deadline is every Thursday at 5pm. If you have submitted your problem set
+by then, it will be graded over the weekend. Please ask for feedback!
 
-## Samenwerken
+## Grading
 
-Het is uitdrukkelijk toegestaan om tijdens het programmeren samen te
-werken met medestudenten. **Daarbij is het echter niet toegestaan om
-delen van code van je medestudenten, of van internet, over te nemen.**
-Een belangrijk verschil. Je kunt discussiëren over de manier waarop je
-een probleem aanpakt, zelfs hoe je een klein detail moet
-implementeren, maar je kopieert nooit code van anderen. Overtikken is
-ook kopiëren.
+You will receive a final grade for the course if:
 
-Kom je in tijdnood? Bespreek het even met een docent. We willen het
-graag zo oplossen dat je het vak zelfstandig kunt halen.
+* you've attended all lab sessions during the course;
+* you've submitted every problem set working and on time;
+* you've passed the quizzes.
 
-## Beoordeling
+Should you not have succeeded in doing one of those, we cannot give you a
+final grade. Still, we are most certain that every student should be able to
+pass the course!
 
-Je krijgt een eindcijfer voor dit vak als je:
+Problem sets and the final project will be evaluated along axes of:
 
-* alle dagen aanwezig bent geweest;
-* alle benodigde programma's op tijd werkend hebt aangeleverd;
-* een voldoende hebt gehaald voor het tentamen.
+* Scope, 
+* Correctness, 
+* Design and 
+* Style.
 
-Als je niet aan deze voorwaarden voldoet, krijg je nog geen cijfer
-voor het vak. Niettemin denken we dat elke student deze cursus zal
-kunnen halen.
+Know that this course draws quite the spectrum of students, including *those
+less comfortable*, *those more comfortable*, and those somewhere in between.
+However, what ultimately matters in this course is not so much where you end
+up relative to your classmates but where you end up relative to yourself
+before you took this course.
 
-Het **eindcijfer** is het gemiddelde van de problem sets. Het tentamen
-moet voldoende gemaakt worden maar telt dus niet mee.
+The course is *not* graded on a curve. The course does *not* have
+pre-determined cutoffs for final grades. Those less comfortable and somewhere
+in between are *not at a disadvantage* vis-à-vis those more comfortable. Each
+student's final grade is individually determined at term’s end after input
+from the assistants. Remarkable effort and upward trending do not go
+unnoticed.
 
-## Problem sets
+## Technical Requirements
 
-Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
+Since one of the goals of this course is to become familiar with programming,
+you will need to install and use the Python programming language and the
+interpreter IDLE. Please see the [Software section](/resources/software) for
+information and instructions on downloading the required software.
 
-* omvang (heb je alle opdrachten gedaan? anders sturen we het terug)
-* correctheid (met dien verstande dat het in principe correct moet
-  werken)
-* stijl (in het kort: hoe leesbaar is het voor de beoordelaar?)
-* ontwerp (is het niet onnodig ingewikkeld?)
+Most lectures involve programming demonstrations, and the code involved will
+generally be posted twice: once as a handout in PDF format, and again as a
+code file in `.py` (Python) format. Additionally, many problem sets have
+accompanying code required for completing the assignment, and these are posted
+as `.py` (Python) files. If you do not have the software installed, you will
+not be able to properly open and use these files.
 
-De bedoeling is dat je tijdens de cursus steeds betere en leesbaardere
-programma's gaat insturen. De schaal staat dus niet helemaal vast: we
-kijken ook hoe je prestaties groeien.
+## Books
 
-Het is prima om vóór je instuurt de assistent nog even te vragen naar
-je opgave te kijken.
+There is no course textbook; much of the reading will come from online
+sources. However, if one is seeking an additional optional reference, one of
+the following texts may be useful.
 
-## Literatuur
+- Zelle, John M. Python Programming: An Introduction to Computer Science. 1st ed. Franklin Beedle & Associates, 2003. ISBN: 9781887902991. (Be sure to get the 1st edition, not the 2nd.)
+- Budd, Timothy. Exploring Python. McGraw-Hill Science, 2009. ISBN: 9780073523378.
+- Shaw, Zed A. [Learn Python the Hard Way](http://learnpythonthehardway.org/book/). (Available to read on the web for free. Also available as [PDF download, ePub download, or printed book](http://learnpythonthehardway.org/), mailed to you, each at a low cost.)
+- Swaroop, CH. [A Byte of Python](http://www.ibiblio.org/swaroopch/byteofpython/read/).
 
-Relevante links naar hoofdstukken staan telkens bij de verschillende
-opdrachten. Daarbij vind je hier de complete PDF-bestanden van drie
-Python-boeken die gebruikt worden:
+## Academic Honesty
 
-* Allen Downey et.al., [How to think like a computer scientist](http://staff.science.uva.nl/~mstgeman/progwis/CompleteBook.pdf), Green Tea Press
-* [Python programming](http://staff.science.uva.nl/~mstgeman/progwis/PythonProgramming.pdf), Wikibooks
-* Guido van Rossum, [Python tutorial](PythonTutorial), Python software foundation
+For more information on the UvA-specific rules, see: [Fraude, plagiaat en bronvermelding](http://studentenserviceplein.uva.nl/serviceplein/content/fraude-plagiaat-en-bronvermelding/fraude-en-plagiaatregeling.html) or: [Plagiarism and fraud](http://studentenserviceplein.uva.nl/en/service-point/content/plagiarism-and-fraud/plagiarism-and-fraud.html)
 
-## Plagiaat
+## Acknowledgements ##
 
-Zie *Samenwerken*.
+This course is based on MIT 6.00sc. The original acknowledgements are shown below.
