@@ -1,0 +1,3 @@
+name: ps5
+required:
+  - ps5.py

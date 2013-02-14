@@ -1,0 +1,5 @@
+name: ps7
+required:
+  - ps7.py
+  - ps7b.py
+  - writeup.pdf

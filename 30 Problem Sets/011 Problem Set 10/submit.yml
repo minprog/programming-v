@@ -1,0 +1,4 @@
+name: ps10
+required:
+  - ps10.py
+  - ps10writeup.pdf

@@ -1,0 +1,4 @@
+name: ps11
+required:
+  - ps11.py
+  - graph.py
