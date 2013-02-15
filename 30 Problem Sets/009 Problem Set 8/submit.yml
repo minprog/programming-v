@@ -1,4 +1,4 @@
-name: ps8
+name: ps08
 required:
   - ps8.py
   - ps8_writeup.pdf

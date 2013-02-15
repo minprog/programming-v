@@ -1,4 +1,4 @@
-name: ps7
+name: ps07
 required:
   - ps7.py
   - ps7b.py

@@ -1,4 +1,4 @@
-name: ps9
+name: ps09
 required:
   - ps9.py
   - ps9_writeup.pdf

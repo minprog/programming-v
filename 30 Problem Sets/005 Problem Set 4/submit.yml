@@ -1,4 +1,4 @@
-name: ps4
+name: ps04
 required:
   - ps4.py
   - ps4.txt

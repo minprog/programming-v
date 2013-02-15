@@ -1,4 +1,4 @@
-name: ps1
+name: ps01
 required:
   - ps1a.py
   - ps1b.py
