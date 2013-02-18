@@ -80,7 +80,7 @@ Think of writing pseudocode like you would explain it to another person – it d
 have to conform to any particular syntax as long as what’s happening is clear to the grader.
 
 Pseudocode is a compact and informal high-level description of a [computer programming]
-[algorithm] that uses the structural conventions of a [programming language], but is intended for
+**TEST** [algorithm] that uses the structural conventions of a [programming language], but is intended for
 human reading rather than machine reading. Pseudocode typically omits details that are not
 essential for human understanding of the algorithm, such as [variable declarations], system-
 specific code and [subroutines]. The purpose of using pseudocode is that it is easier for humans to
@@ -345,8 +345,8 @@ your base case, the simplest possible sub-problem you will need to solve. What v
 would make a good base case? (Hint: the answer is NOT zero.)
 
 To help you test your code, we’ve given you two simple helper functions:
-random_string(wordlist, n) generates n random words from wordlist and returns them in a string.
-random_scrambled(wordlist, n) generates n random words from wordlist and returns them in a
+*random_string(wordlist, n)* generates n random words from wordlist and returns them in a string.
+*random_scrambled(wordlist, n)* generates n random words from wordlist and returns them in a
 string after encrypting them with a random multi-level Caesar shift. You can start by making
 sure your code decrypts a single word correctly, then move up to 2 and higher.
 NOTE: This function depends on your implementation of apply_shifts, so it will not work
