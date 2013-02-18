@@ -1,4 +1,4 @@
-**Still under development**
+# !!Still under construction!!
 
 # Caesar Cipher
 
@@ -71,20 +71,30 @@ understand everything else:
 
 Pseudocode is writing out the algorithm/solution in a form that is like code, but not quite code.
 Pseudocode is language independent, uses plain English (or your native language), and is readily
-understandable. Algorithm related articles in wikipedia often use pseudocode to explain the
+understandable. [Algorithm related articles] in wikipedia often use pseudocode to explain the
 algorithm.
+
+[Algorithm related articles]: http://en.wikipedia.org/wiki/Wikipedia:Algorithms_on_Wikipedia
 
 Think of writing pseudocode like you would explain it to another person – it doesn’t generally
 have to conform to any particular syntax as long as what’s happening is clear to the grader.
 
-Pseudocode is a compact and informal high-level description of a computer programming
-algorithm that uses the structural conventions of a programming language, but is intended for
+Pseudocode is a compact and informal high-level description of a [computer programming]
+[algorithm] that uses the structural conventions of a [programming language], but is intended for
 human reading rather than machine reading. Pseudocode typically omits details that are not
-essential for human understanding of the algorithm, such as variable declarations, system-
-specific code and subroutines. The purpose of using pseudocode is that it is easier for humans to
+essential for human understanding of the algorithm, such as [variable declarations], system-
+specific code and [subroutines]. The purpose of using pseudocode is that it is easier for humans to
 understand than conventional programming language code, and that it is a compact and
 environment-independent description of the key principles of an algorithm. No standard for
-pseudocode syntax exists, as a program in pseudocode is not an executable program. – wikipedia
+pseudocode syntax exists, as a program in pseudocode is not an executable program. – [wikipedia]
+
+[computer programming]: http://en.wikipedia.org/wiki/Computer_programming
+[algorithm]: http://en.wikipedia.org/wiki/Algorithm
+[programming language]: http://en.wikipedia.org/wiki/Programming_language
+[variable declarations]: http://en.wikipedia.org/wiki/Variable_declaration
+[subroutines]: http://en.wikipedia.org/wiki/Subroutines
+[wikipedia]: http://en.wikipedia.org/wiki/Pseudocode
+
 
 **If you are having difficulty with problems 2 or 4**, please try to write out the pseudocode first  
 (before writing any Python code) and **have it checked by a course assistant.**
@@ -94,104 +104,108 @@ Write a program to encrypt plaintext into ciphertext using the Caesar cipher. We
 skeleton code for the following functions:
 
     def build_coder(shift):
-    """
-    Returns a dict that can apply a Caesar cipher to a letter.
-    The cipher is defined by the shift value. Ignores non-letter characters
-    like punctuation and numbers.
-    shift: -27 < int < 27
-    returns: dict
-    Example:
-    >>> build_coder(3)
-    {' ': 'c', 'A': 'D', 'C': 'F', 'B': 'E', 'E': 'H', 'D': 'G', 'G': 'J',
-    'F': 'I', 'I': 'L', 'H': 'K', 'K': 'N', 'J': 'M', 'M': 'P', 'L': 'O',
-    'O': 'R', 'N': 'Q', 'Q': 'T', 'P': 'S', 'S': 'V', 'R': 'U', 'U': 'X',
-    'T': 'W', 'W': 'Z', 'V': 'Y', 'Y': 'A', 'X': ' ', 'Z': 'B', 'a': 'd',
-    'c': 'f', 'b': 'e', 'e': 'h', 'd': 'g', 'g': 'j', 'f': 'i', 'i': 'l',
-    'h': 'k', 'k': 'n', 'j': 'm', 'm': 'p', 'l': 'o', 'o': 'r', 'n': 'q',
-    'q': 't', 'p': 's', 's': 'v', 'r': 'u', 'u': 'x', 't': 'w', 'w': 'z',
-    'v': 'y', 'y': 'a', 'x': ' ', 'z': 'b'}
-    (The order of the key-value pairs may be different.)
-    """
-    ### TODO.
+        """
+        Returns a dict that can apply a Caesar cipher to a letter.
+        The cipher is defined by the shift value. Ignores non-letter characters
+        like punctuation and numbers.
+        shift: -27 < int < 27
+        returns: dict
+        Example:
+        >>> build_coder(3)
+        {' ': 'c', 'A': 'D', 'C': 'F', 'B': 'E', 'E': 'H', 'D': 'G', 'G': 'J',
+        'F': 'I', 'I': 'L', 'H': 'K', 'K': 'N', 'J': 'M', 'M': 'P', 'L': 'O',
+        'O': 'R', 'N': 'Q', 'Q': 'T', 'P': 'S', 'S': 'V', 'R': 'U', 'U': 'X',
+        'T': 'W', 'W': 'Z', 'V': 'Y', 'Y': 'A', 'X': ' ', 'Z': 'B', 'a': 'd',
+        'c': 'f', 'b': 'e', 'e': 'h', 'd': 'g', 'g': 'j', 'f': 'i', 'i': 'l',
+        'h': 'k', 'k': 'n', 'j': 'm', 'm': 'p', 'l': 'o', 'o': 'r', 'n': 'q',
+        'q': 't', 'p': 's', 's': 'v', 'r': 'u', 'u': 'x', 't': 'w', 'w': 'z',
+        'v': 'y', 'y': 'a', 'x': ' ', 'z': 'b'}
+        (The order of the key-value pairs may be different.)
+        """
+        ### TODO.
+    
     def build_encoder(shift):
-    """
-    Returns a dict that can be used to encode a plain text. For example, you
-    could encrypt the plain text by calling the following commands
-    >>>encoder = build_encoder(shift)
-    >>>encrypted_text = apply_coder(plain_text, encoder)
-    The cipher is defined by the shift value. Ignores non-letter characters
-    like punctuation and numbers.
-    shift: 0 <= int < 27
-    returns: dict
-    Example:
-    >>> build_encoder(3)
-    {' ': 'c', 'A': 'D', 'C': 'F', 'B': 'E', 'E': 'H', 'D': 'G', 'G': 'J',
-    'F': 'I', 'I': 'L', 'H': 'K', 'K': 'N', 'J': 'M', 'M': 'P', 'L': 'O',
-    'O': 'R', 'N': 'Q', 'Q': 'T', 'P': 'S', 'S': 'V', 'R': 'U', 'U': 'X',
-    'T': 'W', 'W': 'Z', 'V': 'Y', 'Y': 'A', 'X': ' ', 'Z': 'B', 'a': 'd',
-    'c': 'f', 'b': 'e', 'e': 'h', 'd': 'g', 'g': 'j', 'f': 'i', 'i': 'l',
-    'h': 'k', 'k': 'n', 'j': 'm', 'm': 'p', 'l': 'o', 'o': 'r', 'n': 'q',
-    'q': 't', 'p': 's', 's': 'v', 'r': 'u', 'u': 'x', 't': 'w', 'w': 'z',
-    'v': 'y', 'y': 'a', 'x': ' ', 'z': 'b'}
-    (The order of the key-value pairs may be different.)
-    HINT : Use build_coder.
-    """
-    ### TODO.
+        """
+        Returns a dict that can be used to encode a plain text. For example, you
+        could encrypt the plain text by calling the following commands
+        >>>encoder = build_encoder(shift)
+        >>>encrypted_text = apply_coder(plain_text, encoder)
+        The cipher is defined by the shift value. Ignores non-letter characters
+        like punctuation and numbers.
+        shift: 0 <= int < 27
+        returns: dict
+        Example:
+        >>> build_encoder(3)
+        {' ': 'c', 'A': 'D', 'C': 'F', 'B': 'E', 'E': 'H', 'D': 'G', 'G': 'J',
+        'F': 'I', 'I': 'L', 'H': 'K', 'K': 'N', 'J': 'M', 'M': 'P', 'L': 'O',
+        'O': 'R', 'N': 'Q', 'Q': 'T', 'P': 'S', 'S': 'V', 'R': 'U', 'U': 'X',
+        'T': 'W', 'W': 'Z', 'V': 'Y', 'Y': 'A', 'X': ' ', 'Z': 'B', 'a': 'd',
+        'c': 'f', 'b': 'e', 'e': 'h', 'd': 'g', 'g': 'j', 'f': 'i', 'i': 'l',
+        'h': 'k', 'k': 'n', 'j': 'm', 'm': 'p', 'l': 'o', 'o': 'r', 'n': 'q',
+        'q': 't', 'p': 's', 's': 'v', 'r': 'u', 'u': 'x', 't': 'w', 'w': 'z',
+        'v': 'y', 'y': 'a', 'x': ' ', 'z': 'b'}
+        (The order of the key-value pairs may be different.)
+        HINT : Use build_coder.
+        """
+        ### TODO.
+    
     def build_decoder(shift):
-    """
-    Returns a dict that can be used to decode an encrypted text. For example,
-    you
-    could decrypt an encrypted text by calling the following commands
-    >>>encoder = build_encoder(shift)
-    >>>encrypted_text = apply_coder(plain_text, encoder)
-    >>>decrypted_text = apply_coder(plain_text, decoder)
-    The cipher is defined by the shift value. Ignores non-letter characters
-    like punctuation and numbers.
-    shift: 0 <= int < 27
-    returns: dict
-    Example:
-    >>> build_decoder(3)
-    {' ': 'x', 'A': 'Y', 'C': ' ', 'B': 'Z', 'E': 'B', 'D': 'A', 'G': 'D',
-    'F': 'C', 'I': 'F', 'H': 'E', 'K': 'H', 'J': 'G', 'M': 'J', 'L': 'I',
-    'O': 'L', 'N': 'K', 'Q': 'N', 'P': 'M', 'S': 'P', 'R': 'O', 'U': 'R',
-    'T': 'Q', 'W': 'T', 'V': 'S', 'Y': 'V', 'X': 'U', 'Z': 'W', 'a': 'y',
-    'c': ' ', 'b': 'z', 'e': 'b', 'd': 'a', 'g': 'd', 'f': 'c', 'i': 'f',
-    'h': 'e', 'k': 'h', 'j': 'g', 'm': 'j', 'l': 'i', 'o': 'l', 'n': 'k',
-    'q': 'n', 'p': 'm', 's': 'p', 'r': 'o', 'u': 'r', 't': 'q', 'w': 't',
-    'v': 's', 'y': 'v', 'x': 'u', 'z': 'w'}
-    (The order of the key-value pairs may be different.)
-    HINT : Use build_coder.
-    """
-    ### TODO.
+        """
+        Returns a dict that can be used to decode an encrypted text. For example,
+        you
+        could decrypt an encrypted text by calling the following commands
+        >>>encoder = build_encoder(shift)
+        >>>encrypted_text = apply_coder(plain_text, encoder)
+        >>>decrypted_text = apply_coder(plain_text, decoder)
+        The cipher is defined by the shift value. Ignores non-letter characters
+        like punctuation and numbers.
+        shift: 0 <= int < 27
+        returns: dict
+        Example:
+        >>> build_decoder(3)
+        {' ': 'x', 'A': 'Y', 'C': ' ', 'B': 'Z', 'E': 'B', 'D': 'A', 'G': 'D',
+        'F': 'C', 'I': 'F', 'H': 'E', 'K': 'H', 'J': 'G', 'M': 'J', 'L': 'I',
+        'O': 'L', 'N': 'K', 'Q': 'N', 'P': 'M', 'S': 'P', 'R': 'O', 'U': 'R',
+        'T': 'Q', 'W': 'T', 'V': 'S', 'Y': 'V', 'X': 'U', 'Z': 'W', 'a': 'y',
+        'c': ' ', 'b': 'z', 'e': 'b', 'd': 'a', 'g': 'd', 'f': 'c', 'i': 'f',
+        'h': 'e', 'k': 'h', 'j': 'g', 'm': 'j', 'l': 'i', 'o': 'l', 'n': 'k',
+        'q': 'n', 'p': 'm', 's': 'p', 'r': 'o', 'u': 'r', 't': 'q', 'w': 't',
+        'v': 's', 'y': 'v', 'x': 'u', 'z': 'w'}
+        (The order of the key-value pairs may be different.)
+        HINT : Use build_coder.
+        """
+        ### TODO.
+    
     def apply_coder(text, coder):
-    """
-    Applies the coder to the text. Returns the encoded text.
-    text: string
-    coder: dict with mappings of characters to shifted characters
-    returns: text after mapping coder chars to original text
-    Example:
-    >>> apply_coder("Hello, world!", build_encoder(3))
-    'Khoor,czruog!'
-    >>> apply_coder("Khoor,czruog!", build_decoder(3))
-    'Hello, world!'
-    """
-    ### TODO.
+        """
+        Applies the coder to the text. Returns the encoded text.
+        text: string
+        coder: dict with mappings of characters to shifted characters
+        returns: text after mapping coder chars to original text
+        Example:
+        >>> apply_coder("Hello, world!", build_encoder(3))
+        'Khoor,czruog!'
+        >>> apply_coder("Khoor,czruog!", build_decoder(3))
+        'Hello, world!'
+        """
+        ### TODO.
+        
     def apply_shift(text, shift):
-    """
-    Given a text, returns a new text Caesar shifted by the given shift
-    offset. The empty space counts as the 27th letter of the alphabet,
-    so spaces should be replaced by a lowercase letter as appropriate.
-    Otherwise, lower case letters should remain lower case, upper case
-    letters should remain upper case, and all other punctuation should
-    stay as it is.
-    text: string to apply the shift to
-    shift: amount to shift the text
-    returns: text after being shifted by specified amount.
-    Example:
-    >>> apply_shift('This is a test.', 8)
-    'Apq hq hiham a.'
-    """
-    ### TODO.
+        """
+        Given a text, returns a new text Caesar shifted by the given shift
+        offset. The empty space counts as the 27th letter of the alphabet,
+        so spaces should be replaced by a lowercase letter as appropriate.
+        Otherwise, lower case letters should remain lower case, upper case
+        letters should remain upper case, and all other punctuation should
+        stay as it is.
+        text: string to apply the shift to
+        shift: amount to shift the text
+        returns: text after being shifted by specified amount.
+        Example:
+        >>> apply_shift('This is a test.', 8)
+        'Apq hq hiham a.'
+        """
+        ### TODO.
 
 Once you’ve written this function, you should be able to use it to encode strings.
 
@@ -222,26 +236,26 @@ deciding between ambiguous decryptions, for this problem we are only looking for
 solution.
 
 To assist you in solving this problem, we have provided a helper function:
-is_word(wordlist, word). This simply determines if word is a valid word according to wordlist.
+*is\_word(wordlist, word)*. This simply determines if word is a valid word according to wordlist.
 This function ignores capitalization and punctuation.
 
 Hint: You may find the function string.split to be useful for dividing the text up into words.
 
     def find_best_shift(wordlist, text):
-    """
-    Decrypts the encoded text and returns the plaintext.
-    text: string
-    returns: 0 <= int 27
-    Example:
-    >>> s = apply_coder('Hello, world!', build_encoder(8))
-    >>> s
-    'Pmttw,hdwztl!'
-    >>> find_best_shift(wordlist, s) returns
-    8
-    >>> apply_coder(s, build_decoder(8)) returns
-    'Hello, world!'
-    """
-    ### TODO
+        """
+        Decrypts the encoded text and returns the plaintext.
+        text: string
+        returns: 0 <= int 27
+        Example:
+        >>> s = apply_coder('Hello, world!', build_encoder(8))
+        >>> s
+        'Pmttw,hdwztl!'
+        >>> find_best_shift(wordlist, s) returns
+        8
+        >>> apply_coder(s, build_decoder(8)) returns
+        'Hello, world!'
+        """
+        ### TODO
 
 Once you’ve written this function you can decode your friend’s emails!
 
@@ -259,21 +273,21 @@ Caesar shift of 3 starting at the 6th letter in the string.
 To do this, implement the following function according to the specification.
 
     def apply_shifts(text, shifts):
-    """
-    Applies a sequence of shifts to an input text.
-    text: A string to apply the Ceasar shifts to
-    shifts: A list of tuples containing the location each shift should
-    begin and the shift offset. Each tuple is of the form (location,
-    shift) The shifts are layered: each one is applied from its
-    starting position all the way through the end of the string.
-    returns: text after applying the shifts to the appropriate
-    positions
-    Example:
-    >>> apply_shifts("Do Androids Dream of Electric Sheep?", [(0,6), (3, 18),
-    (12, 16)])
-    'JufYkaolfapxQdrnzmasmRyrpfdvpmEurrb?'
-    """
-    ### TODO.
+        """
+        Applies a sequence of shifts to an input text.
+        text: A string to apply the Ceasar shifts to
+        shifts: A list of tuples containing the location each shift should
+        begin and the shift offset. Each tuple is of the form (location,
+        shift) The shifts are layered: each one is applied from its
+        starting position all the way through the end of the string.
+        returns: text after applying the shifts to the appropriate
+        positions
+        Example:
+        >>> apply_shifts("Do Androids Dream of Electric Sheep?", [(0,6), (3, 18),
+        (12, 16)])
+        'JufYkaolfapxQdrnzmasmRyrpfdvpmEurrb?'
+        """
+        ### TODO.
 
 Problem 4. Multi-level Code-breaking
 
@@ -295,38 +309,38 @@ workspace.
 To do this, implement the following function according to the specification.
 
     def find_best_shifts(wordlist, text):
-    """
-    Given a scrambled string, returns a shift key that will decode the text
-    to
-    words in wordlist, or None if there is no such key.
-    ***HINT: Make use of the recursive function
-    find_best_shifts_rec(wordlist, text, start)***
-    wordlist: list of words
-    text: scambled text to try to find the words for
-    returns: list of tuples. each tuple is (position in text, amount of
-    shift)
-    Examples:
-    >>> s = random_scrambled(wordlist, 3)
-    >>> s
-    'eqorqukvqtbmultiform wyy ion'
-    >>> shifts = find_best_shifts(wordlist, s)
-    >>> shifts
-    [(0, 25), (11, 2), (21, 5)]
-    >>> apply_shifts(s, shifts)
-    'compositor multiform accents'
-    >>> s = apply_shifts("Do Androids Dream of Electric Sheep?", [(0,6), (3,
-    18), (12, 16)])
-    >>> s
-    'JufYkaolfapxQdrnzmasmRyrpfdvpmEurrb?'
-    >>> shifts = find_best_shifts(wordlist, s)
-    >>> print apply_shifts(s, shifts)
-    Do Androids Dream of Electric Sheep?
-    """
+        """
+        Given a scrambled string, returns a shift key that will decode the text
+        to
+        words in wordlist, or None if there is no such key.
+        ***HINT: Make use of the recursive function
+        find_best_shifts_rec(wordlist, text, start)***
+        wordlist: list of words
+        text: scambled text to try to find the words for
+        returns: list of tuples. each tuple is (position in text, amount of
+        shift)
+        Examples:
+        >>> s = random_scrambled(wordlist, 3)
+        >>> s
+        'eqorqukvqtbmultiform wyy ion'
+        >>> shifts = find_best_shifts(wordlist, s)
+        >>> shifts
+        [(0, 25), (11, 2), (21, 5)]
+        >>> apply_shifts(s, shifts)
+        'compositor multiform accents'
+        >>> s = apply_shifts("Do Androids Dream of Electric Sheep?", [(0,6), (3,
+        18), (12, 16)])
+        >>> s
+        'JufYkaolfapxQdrnzmasmRyrpfdvpmEurrb?'
+        >>> shifts = find_best_shifts(wordlist, s)
+        >>> print apply_shifts(s, shifts)
+        Do Androids Dream of Electric Sheep?
+        """
 
 To solve this problem successfully, we highly recommend that you use recursion (did we say use
 recursion again?). The non-recursive version of this function is much more difficult to
 understand and code. The key to getting the recursion correct is in understanding the seemingly
-unnecessary parameter “start”. As always with recursion, you should begin by thinking about
+unnecessary parameter 'start'. As always with recursion, you should begin by thinking about
 your base case, the simplest possible sub-problem you will need to solve. What value of start
 would make a good base case? (Hint: the answer is NOT zero.)
 
@@ -339,47 +353,46 @@ NOTE: This function depends on your implementation of apply_shifts, so it will n
 correctly until you have completed Problem 3.
 
     def find_best_shifts_rec(wordlist, text, start):
-    """
-    Given a scrambled string and a starting position from which
-    to decode, returns a shift key that will decode the text to
-    words in wordlist, or None if there is no such key.
-    Hint: You will find this function much easier to implement
-    if you use recursion.
-    wordlist: list of words
-    text: scambled text to try to find the words for
-    start: where to start looking at shifts
-    returns: list of tuples. each tuple is (position in text, amount of
-    shift)
-    """
-    ### TODO.
+        """
+        Given a scrambled string and a starting position from which
+        to decode, returns a shift key that will decode the text to
+        words in wordlist, or None if there is no such key.
+        Hint: You will find this function much easier to implement
+        if you use recursion.
+        wordlist: list of words
+        text: scambled text to try to find the words for
+        start: where to start looking at shifts
+        returns: list of tuples. each tuple is (position in text, amount of
+        shift)
+        """
+        ### TODO.
 
-Problem 5. The Moral of the Story
+### Problem 5. The Moral of the Story
+
 Now that you have all the pieces to the puzzle, please use them to decode the file, fable.txt. At
-the bottom of the skeleton file, you will see a method get\_fable\_string() that will return the
+the bottom of the skeleton file, you will see a method **get\_fable\_string()** that will return the
 encrypted version of the fable. Create the following method and include as a comment at the end
 of the problem set how the fable relates to your education at UvA.
 
     def decrypt_fable():
-    """
-    Using the methods you created in this problem set,
-    decrypt the fable given by the function get_fable_string().
-    Once you decrypt the message, be sure to include as a comment
-    at the end of this problem set how the fable relates to your
-    education at MIT.
-    returns: string - fable in plain text
-    """
-    ### TODO.
-    Hand-In Procedure
-    1. Save
-    You should be using ps4.txt to save your pseudocode answers. Remember, this part is turned in
-    after Lecture 8!
-    You should be using the ps4.py skeleton given to you in this problem set. Fill in the code for the
-    functions: build_coder(), apply_coder(), apply_shift(), find_best_shift(), apply_shifts(), and
-    find_best_shifts(). Any other code is not necessary. Save your solution as ps4.py. Do not ignore
-    this step or save your file with a different name.
-    2. Time and Collaboration Info
-    At the start of each file, in a comment, write down the number of hours (roughly) you spent on
-    the problems in that part, and the names of the people you collaborated with. For example:
+        """
+        Using the methods you created in this problem set,
+        decrypt the fable given by the function get_fable_string().
+        Once you decrypt the message, be sure to include as a comment
+        at the end of this problem set how the fable relates to your
+        education at MIT.
+        returns: string - fable in plain text
+        """
+        ### TODO.
+    
+### Hand-In Procedure
+
+1. You should be using the ps4.py skeleton given to you in this problem set. Fill in the code for the
+functions: *build\_coder()*, *apply\_coder()*, *apply\_shift()*, *find\_best\_shift()*, *apply\_shifts()*, and
+*find\_best\_shifts()*. Any other code is not necessary. Save your solution as ps4.py.
+2. At the start of each file, in a comment, write down the number of hours (roughly) you spent on
+the problems in that part, and the names of the people you collaborated with. For example:
+
     # Problem Set 4
     # Name: Jane Lee
     # Collaborators (Discussion): John Doe
@@ -387,4 +400,3 @@ of the problem set how the fable relates to your education at UvA.
     # Time: 1:30
     #
     ... your code goes here ...
-
