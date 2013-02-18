@@ -1,4 +1,3 @@
-
 # Caesar Cipher
 
 ### Introduction
@@ -268,9 +267,9 @@ Clearly the basic Caesar cipher is not terribly secure. To make things a little 
 will now implement a multi-level Caesar cipher. Instead of shifting the entire string by a single
 value, you will perform additional shifts at specified locations throughout the string. This
 function takes a string text and a list of tuples shifts. The tuples in shifts represent the location of
-the shift, and the shift itself. For example a tuple of $$(0,2)$$ means that the shift starts are position 0
+the shift, and the shift itself. For example a tuple of *(0,2)* means that the shift starts are position 0
 in the string and is a Caesar shift of 2. Additionally, the shifts are layered. This means that a set
-of shifts $$[(0,2), (5, 3)]$$ will first apply a Caesar shift of 2 to the entire string, and then apply a
+of shifts *[(0,2), (5, 3)]* will first apply a Caesar shift of 2 to the entire string, and then apply a
 Caesar shift of 3 starting at the 6th letter in the string.
 
 To do this, implement the following function according to the specification.
