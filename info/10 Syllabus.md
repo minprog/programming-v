@@ -24,7 +24,7 @@ phone: 525 5235
 ### Course maintainer
 
 Tim Doolan  
-<help@mprog.nl>
+<tim.doolan@gmail.com>
 
 ## About this course ##
 
