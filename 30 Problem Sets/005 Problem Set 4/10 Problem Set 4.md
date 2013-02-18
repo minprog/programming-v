@@ -1,4 +1,3 @@
-# !!Still under construction!!
 
 # Caesar Cipher
 
@@ -40,6 +39,10 @@ become ' ', 'z' would become 'a', and ' ' would become 'b'.
 
 ### Getting Started
 
+The zip file can be downloaded [here].
+
+[here]: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-10-hashing-and-classes/ps4.zip
+
 * ps4-psuedo.txt: For problems 2a and 4a.
 * ps4.py: the skeleton you’ll fill in
 * words.txt: a list of English words
@@ -79,8 +82,8 @@ algorithm.
 Think of writing pseudocode like you would explain it to another person – it doesn’t generally
 have to conform to any particular syntax as long as what’s happening is clear to the grader.
 
-Pseudocode is a compact and informal high-level description of a [computer programming]
-**TEST** [algorithm] that uses the structural conventions of a [programming language], but is intended for
+Pseudocode is a compact and informal high-level description of an [algorithm] for [computer programming]
+that uses the structural conventions of a [programming language], but is intended for
 human reading rather than machine reading. Pseudocode typically omits details that are not
 essential for human understanding of the algorithm, such as [variable declarations], system-
 specific code and [subroutines]. The purpose of using pseudocode is that it is easier for humans to
@@ -265,9 +268,9 @@ Clearly the basic Caesar cipher is not terribly secure. To make things a little 
 will now implement a multi-level Caesar cipher. Instead of shifting the entire string by a single
 value, you will perform additional shifts at specified locations throughout the string. This
 function takes a string text and a list of tuples shifts. The tuples in shifts represent the location of
-the shift, and the shift itself. For example a tuple of (0,2) means that the shift starts are position 0
+the shift, and the shift itself. For example a tuple of $$(0,2)$$ means that the shift starts are position 0
 in the string and is a Caesar shift of 2. Additionally, the shifts are layered. This means that a set
-of shifts [(0,2), (5, 3)] will first apply a Caesar shift of 2 to the entire string, and then apply a
+of shifts $$[(0,2), (5, 3)]$$ will first apply a Caesar shift of 2 to the entire string, and then apply a
 Caesar shift of 3 starting at the 6th letter in the string.
 
 To do this, implement the following function according to the specification.
@@ -393,10 +396,11 @@ functions: *build\_coder()*, *apply\_coder()*, *apply\_shift()*, *find\_best\_sh
 2. At the start of each file, in a comment, write down the number of hours (roughly) you spent on
 the problems in that part, and the names of the people you collaborated with. For example:
 
-    # Problem Set 4
-    # Name: Jane Lee
-    # Collaborators (Discussion): John Doe
-    # Collaborators (Identical Solution): Jane Smith
-    # Time: 1:30
-    #
-    ... your code goes here ...
+        # Problem Set 4
+        # Name: Jane Lee
+        # Collaborators (Discussion): John Doe
+        # Collaborators (Identical Solution): Jane Smith
+        # Time: 1:30
+        #
+        ... your code goes here ...
+
