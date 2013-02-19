@@ -24,7 +24,7 @@ phone: 525 5235
 ### Course maintainer
 
 Tim Doolan  
-<tim.doolan@gmail.com>
+<tim.doolan@gmail.com>  
 subject tag: [MP:P]
 
 ## About this course ##
