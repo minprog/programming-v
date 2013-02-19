@@ -1,6 +1,8 @@
 ![Roomba photograph courtesy of Stephanie Booth on Flickr; virus image courtesy of the CDC; Boggle photograph courtesy of Angelina on Flickr; MIT campus map image courtesy of RahulG on Flickr.](mit600.jpg){:.inline }
 
-# Syllabus
+# Syllabus.
+
+*Edition: February 2013*
 
 This subject is aimed at students with little or no programming experience. It
 aims to provide students with an understanding of the role computation can
@@ -9,25 +11,29 @@ major, to feel justifiably confident of their ability to write small programs
 that allow them to accomplish useful goals. The class will use the Python
 programming language.
 
-## Staff
+## Staff.
 
 To contact the course's staff about almost anything, feel free to e-mail
 <help@mprog.nl>. We'll usually respond within 24 hours.
 
-### Course coordinator
+### Course coordinator.
+
+For personal matters and special arrangements.
 
 Martijn Stegeman  
 <stegeman@uva.nl>  
 room: C3.204  
 phone: 525 5235
 
-### Course maintainer
+### Course maintainer.
+
+For feedback on this course web site and the course contents.
 
 Tim Doolan  
 <tim.doolan@gmail.com>  
 subject tag: [MP:P]
 
-## About this course ##
+## About this course.
 
 Let's start with the strategic goals of this course:
 
@@ -81,12 +87,6 @@ learning facts. (This, by the way, is exactly why all exams are open book.)
 This course is aimed at students with little or no prior programming
 experience but a desire to understand computational approaches to problem
 solving. Now, by definition, none of you are under-qualified for this course.
-In terms of being over-qualified -- if you have a lot of prior programming
-experience, we really don't want you wasting your time, and in this case we
-would suggest that you talk to us about how well this class suits your needs,
-and to discuss other options. In addition, we want to maintain a productive
-educational environment, and thus we don't want over-qualified students making
-other students feel inadequate, when in fact they are only inexperienced.
 
 Since computer programming involves computational modes of thinking, it will
 help to have some mathematical and logical aptitude. You should be confident
@@ -94,21 +94,16 @@ with your math skills up to pre-calculus.
 
 ## Expectations
 
-This course consists of 11 problem sets and 3 quizzes. We expect you to watch
-all lectures outside of the lab setting. We expect that you make all problem
-sets. We expect that you pass all three quizzes.
+You are expected to watch all lectures and sections (but not in the lab),
+submit twelve problem sets, and take two quizzes.
 
 ## Getting help
 
-The lab is open five days a week from 9am until 5pm. You're welcome to joins
-us anytime and ask us lots of difficult (or simpler!) questions.
+You are required to work in the lab for some amount of time during the week.
+During these hours, the teaching assistants are available to answer any
+questions you may have about the lectures, quizzes or problem sets.
 
-## Deadlines
-
-Your deadline is every Thursday at 5pm. If you have submitted your problem set
-by then, it will be graded over the weekend. Please ask for feedback!
-
-## Grading
+## Grades
 
 You will receive a final grade for the course if:
 
@@ -119,6 +114,16 @@ You will receive a final grade for the course if:
 Should you not have succeeded in doing one of those, we cannot give you a
 final grade. Still, we are most certain that every student should be able to
 pass the course!
+
+The grade of **Part 1** will be determined using the following weights:
+
+* Problem Sets 0--6: 100%
+* Quiz 1: 0% (but needs to be passed)
+
+The grade of **Part 2** will be determined using the following weights:
+
+* Problem Sets 7--11: 100%
+* Quiz 2: 0% (but need to be passed)
 
 Problem sets and the final project will be evaluated along axes of:
 
@@ -140,20 +145,6 @@ student's final grade is individually determined at term’s end after input
 from the assistants. Remarkable effort and upward trending do not go
 unnoticed.
 
-## Technical Requirements
-
-Since one of the goals of this course is to become familiar with programming,
-you will need to install and use the Python programming language and the
-interpreter IDLE. Please see the [Software section](/resources/software) for
-information and instructions on downloading the required software.
-
-Most lectures involve programming demonstrations, and the code involved will
-generally be posted twice: once as a handout in PDF format, and again as a
-code file in `.py` (Python) format. Additionally, many problem sets have
-accompanying code required for completing the assignment, and these are posted
-as `.py` (Python) files. If you do not have the software installed, you will
-not be able to properly open and use these files.
-
 ## Books
 
 There is no course textbook; much of the reading will come from online
@@ -167,8 +158,7 @@ the following texts may be useful.
 
 ## Academic Honesty
 
-For more information on the UvA-specific rules, see: [Fraude, plagiaat en bronvermelding](http://studentenserviceplein.uva.nl/serviceplein/content/fraude-plagiaat-en-bronvermelding/fraude-en-plagiaatregeling.html) or: [Plagiarism and fraud](http://studentenserviceplein.uva.nl/en/service-point/content/plagiarism-and-fraud/plagiarism-and-fraud.html)
+You probably know the regulations about plagiarism and fraud, but to be on the safe side, we link to them here in [English] and [Dutch].
 
-## Acknowledgements ##
-
-This course is based on MIT 6.00sc. The original acknowledgements are shown below.
+[Dutch]: http://studentenserviceplein.uva.nl/serviceplein/content/fraude-plagiaat-en-bronvermelding/fraude-en-plagiaatregeling.html
+[English]: http://studentenserviceplein.uva.nl/en/service-point/content/plagiarism-and-fraud/plagiarism-and-fraud.html
