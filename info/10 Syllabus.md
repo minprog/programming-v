@@ -25,7 +25,7 @@ phone: 525 5235
 
 Tim Doolan  
 <tim.doolan@gmail.com>
-Subject tag: [MP:P]
+subject tag: [MP:P]
 
 ## About this course ##
 
