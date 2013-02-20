@@ -7,7 +7,7 @@ Answer the questions with True or False.
 Floating point arithmetic behaves exactly like normal arithmetic on real
 numbers
 
-*A:* FALSE. Floating point provides only an approximation to real
+>! FALSE. Floating point provides only an approximation to real
 numbers.
 
 #### 1.2
@@ -32,8 +32,7 @@ What does this code print?
                 print x
     print i
 
-*A:*
-
+>!
     0.1
     0.2
     1.3
