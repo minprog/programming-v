@@ -1,15 +1,5 @@
-# Quiz 1
 
-### Info
-
-This quiz will be on Friday the 22nd in room A1.22
-
-I will choose the time on Wednesday at 23:59 and send you all an email.
-
-I will be assisting again on Thursday from 13:00 to 17:00, please feel free to come by with
-any questions about the covered topics. Martijn is also available for your questions.
-
-### This quiz will cover material from lectures 1-8, recitations 1-4, and problem sets 0-3:
+## This quiz will cover material from lectures 1-8, recitations 1-4, and problem sets 0-3
 
 Imperative and definitional knowledge
 
@@ -51,3 +41,4 @@ Binary representation of numbers
 Debugging
 
 Orders of growth
+

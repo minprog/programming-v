@@ -31,7 +31,8 @@ For feedback on this course web site and the course contents.
 
 Tim Doolan  
 <tim.doolan@gmail.com>  
-subject tag: [MP:P]
+(subject tag: [MP:P])  
+assisting: Tuesday 13-17 & Thursday 13-17
 
 ## About this course.
 
