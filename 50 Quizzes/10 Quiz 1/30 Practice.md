@@ -7,8 +7,7 @@ Answer the questions with True or False.
 Floating point arithmetic behaves exactly like normal arithmetic on real
 numbers
 
->! FALSE. Floating point provides only an approximation to real
-numbers.
+>! FALSE. Floating point provides only an approximation to real numbers.
 
 #### 1.2
 
