@@ -1,3 +1,4 @@
+
 ### 1
 
 Answer the questions with True or False.
@@ -7,16 +8,9 @@ Answer the questions with True or False.
 Floating point arithmetic behaves exactly like normal arithmetic on real
 numbers
 
-*A:* FALSE. Floating point provides only an approximation to real
-numbers.
-
 #### 1.2
 
 On all inputs, a bisection search will run faster than a linear search.
-
-*A:* FALSE. It has a higher asymptotic complexity, but there can be inputs on which it will run
-more slowly. Consider, for example, searching for an element that happens to the
-first element of the list.
 
 ### 2
 
@@ -32,14 +26,6 @@ What does this code print?
                 print x
     print i
 
-*A:*
-
-    0.1
-    0.2
-    1.3
-    2.4
-    1
-
 #### 2.2
 
     def f(s):
@@ -49,11 +35,6 @@ What does this code print?
     
     print f('mat')
     print f('math')
-
-*A:*
-
-    atm
-    hatm
 
 ### 3
 
@@ -66,17 +47,6 @@ Implement the body of this function
       returns: a list of all the words in wordList that contain
           each of the letters in lStr exactly once and no
           letters not in lStr."""
-
-*A:*
-
-    def findAll(wordList, letters):
-        result = []
-        letters = sorted(letters)
-        for w in wordList:
-            w = sorted(w)
-            if w == letters:
-                result.append(w)
-        return result
 
 ### 4
 
@@ -97,13 +67,4 @@ The following code does not meet its specification. Correct it.
         for i in range(len(other)):
             result[i] += other[i]
         return result
-
-*A:*
-
-insert the lines
-
-    v1 = v1[:]
-    v2 = v2[:]
-
-before the first line of executable code.
 
