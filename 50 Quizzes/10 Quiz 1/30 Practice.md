@@ -27,38 +27,33 @@ What does this code print?
     T = (0.1, 0.1)
     x = 0.0
     for i in range(len(T)):
-      for j in T:
-        x += i + j
-        print x
+          for j in T:
+                x += i + j
+                print x
     print i
 
 **A:**
 
-0.1
-
-0.2
-
-1.3
-
-2.4
-
-1
+    0.1
+    0.2
+    1.3
+    2.4
+    1
 
 #### 2.2
 
     def f(s):
-      if len(s) <= 1:
-        return s
-      return f(f(s[1:])) + s[0] #Note double recursion
+        if len(s) <= 1:
+            return s
+        return f(f(s[1:])) + s[0] #Note double recursion
     
     print f('mat')
     print f('math')
 
 **A:**
 
-atm
-
-hatm
+    atm
+    hatm
 
 ### 3
 
@@ -75,13 +70,13 @@ Implement the body of this function
 **A:**
 
     def findAll(wordList, letters):
-      result = []
-      letters = sorted(letters)
-      for w in wordList:
-        w = sorted(w)
-        if w == letters:
-          result.append(w)
-      return result
+        result = []
+        letters = sorted(letters)
+        for w in wordList:
+            w = sorted(w)
+            if w == letters:
+                result.append(w)
+        return result
 
 
 
