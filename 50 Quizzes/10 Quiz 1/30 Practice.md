@@ -98,7 +98,9 @@ The following code does not meet its specification. Correct it.
             result[i] += other[i]
         return result
 
-*A:* insert the lines
+*A:*
+
+insert the lines
 
     v1 = v1[:]
     v2 = v2[:]
