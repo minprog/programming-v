@@ -4,10 +4,6 @@
 
 This quiz will be on Friday the 22nd in room A1.22
 
-The time is yet to be determined, please enter you availability in the [doodle].
-
-[doodle]: http://doodle.com/e3muk3hcrtahv45a
-
 I will choose the time on Wednesday at 23:59 and send you all an email.
 
 I will be assisting again on Thursday from 13:00 to 17:00, please feel free to come by with
