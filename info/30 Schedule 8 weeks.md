@@ -31,7 +31,6 @@
  - [Lecture 8](/lectures/lecture-8)
  - optional [Recitation A](/recitations/recitation-a)
  - [Lecture 9](/lectures/lecture-9)
- - [Quiz 1](/quizzes/quiz-1)
 
 ## Week 4
 
@@ -41,6 +40,7 @@
  - [Lecture 11](/lectures/lecture-11)
  - [Recitation 5](/recitations/recitation-5)
  - [Lecture 12](/lectures/lecture-12)
+ - [Quiz 1](/quizzes/quiz-1)
  - submit pset 5
  
 ## Week 5
@@ -64,7 +64,6 @@
  - submit pset 8
  - start [Problem set 9](/problem-sets/problem-set-9)
  - [Lecture 19](/lectures/lecture-19)
- - [Quiz 2](/quizzes/quiz-2)
 
 ## Week 7
 
@@ -85,4 +84,4 @@
  - submit pset 11
  - [Lecture 25](/lectures/lecture-25)
  - [Lecture 26](/lectures/lecture-26)
- - [Quiz 3](/quizzes/quiz-3)
+ - [Quiz 2](/quizzes/quiz-2)
