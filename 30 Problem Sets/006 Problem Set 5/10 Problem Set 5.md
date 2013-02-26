@@ -1,4 +1,4 @@
-# Problem Set 5: RSS Feed Filter
+# RSS Feed Filter
 
 ### Introduction
 
