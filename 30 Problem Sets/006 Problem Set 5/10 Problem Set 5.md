@@ -146,6 +146,8 @@ implementation of the Trigger class (which is why it throws an exception should 
 to use it), but rather the function definition that specifies that an evaluate(self, story) function
 should exist.
 
+![Trigger Class Inheritance](trigger.png)
+
 The class below implements the Trigger interface (you will not modify this). Any subclass that
 inherits from it will have an evaluate method. By default, they will use the evaluate method in
 Trigger, the superclass, unless they define their own evaluate function, which would then be used
@@ -165,7 +167,7 @@ superclass, which all other classes inherit from. The arrow from WordTrigger to 
 that WordTrigger inherits from Trigger — a WordTrigger is a Trigger. Note that other classes
 inherit from WordTrigger.
 
-**TODO: Insert Trigger Class Inheritance image**
+**TODO: Insert  image**
 
 ### Whole Word Triggers
 
