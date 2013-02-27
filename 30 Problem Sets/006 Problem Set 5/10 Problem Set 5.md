@@ -21,7 +21,9 @@ Section of the webpage); here is the official Python tutorial on classes, sectio
 
 ### Getting Started
 
-You are provided with a zip file of all the files you need, including:
+The zip file can be downloaded [here].
+
+[here]: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ps5.zip
 
 * ps5.py, a skeleton of a solution
 * ps5_test.py, a test suite that will help you check your answers.
