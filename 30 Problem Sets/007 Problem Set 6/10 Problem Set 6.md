@@ -23,7 +23,7 @@ packages:
 
 This is a package for plotting graphs, barcharts and other visual representations of numerical data.
 
-Some [sample images] (click on the images for the code) and the [matplotlib documentation].
+Some [sample images], you can click on the images for the code and the [matplotlib documentation].
 
 [sample images]: matplotlib.org/gallery.html
 [matplotlib documentation]: http://matplotlib.org/contents.html
@@ -233,6 +233,7 @@ and Robot. See ps6.py for complete details.
         Subclasses of Robot should provide movement strategies by implementing
         updatePositionAndClean(), which simulates a single time-step.
         """
+        
         def __init__(self, room, speed):
             """
             Initializes a Robot with the given speed in the specified room. The
@@ -255,4 +256,4 @@ and Robot. See ps6.py for complete details.
             def updatePositionAndClean(self):
                 """Simulate the passage of a single time-step."""
 
-# Under Construction!
+# Still Under Construction
