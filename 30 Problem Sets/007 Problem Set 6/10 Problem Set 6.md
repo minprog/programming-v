@@ -1,4 +1,3 @@
-
 # Simulating Robots
 
 ### Introduction
@@ -24,19 +23,19 @@ packages:
 
 This is a package for plotting graphs, barcharts and other visual representations of numerical data.
 
-Some [sample code] and the [documentation].
+Some [sample images] (click on the images for the code) and the [matplotlib documentation].
 
-[sample code]: matplotlib.org/gallery.html
-[documentation]: http://matplotlib.org/contents.html
+[sample images]: matplotlib.org/gallery.html
+[matplotlib documentation]: http://matplotlib.org/contents.html
 
 #### Numpy
 
 This is a package for scientific computing, implemented mostly with more efficient/advanced math operations.
 
-Some [sample code] and the [documentation].
+An introduction with some [sample code] and the [numpy documentation].
 
 [sample code]: http://scipy.org/Getting_Started
-[documentation]: http://docs.scipy.org/doc/
+[numpy documentation]: http://docs.scipy.org/doc/
 
 #### Check the packages are installed
 
@@ -143,3 +142,117 @@ If you find any places above where the specification of the simulation dynamics 
 ambiguous, it is up to you to make a reasonable decision about how your program/model will
 behave, and document that decision in your code.
 
+## Part I: The Rectangular Room and Robot classes
+
+You will need to design two classes to keep track of which parts of the room have been cleaned
+as well as the position and direction of each robot.
+
+In ps6.py, we’ve provided skeletons for the following two classes, which you will fill in in
+Problem #1:
+
+**RectangularRoom** Represents the space to be cleaned and keeps track of which tiles have been cleaned.
+
+**Robot** Stores the position and heading of a robot.
+
+We’ve also provided a complete implementation of the following class:
+
+**Position** Stores the x- and y-coordinates of a robot in a room.
+
+**Read ps6.py carefully before starting, so that you understand the provided code and its capabilities.**
+
+#### Problem #1
+
+In this problem you will implement two classes.
+
+For the RectangularRoom class, decide what fields you will use and decide how the following
+operations are to be performed:
+
+* Initializing the object
+* Marking an appropriate tile as cleaned when a robot moves to a given position
+* Determining if a given tile has been cleaned
+* Determining how many tiles there are in the room
+* Determining how many cleaned tiles there are in the room
+* Getting a random position in the room
+* Determining if a given position is in the room
+
+For the Robot class, decide what fields you will use and decide how the following operations are
+to be performed:
+
+* Initializing the object
+* Accessing the robot’s position
+* Accessing the robot’s direction
+* Setting the robot’s position
+* Setting the robot’s direction
+
+Complete the RectangularRoom and Robot classes by implementing their methods
+in ps6.py.
+
+(Although this problem has many parts, it should not take long once you have chosen how you
+wish to represent your data. For reasonable representations, *a majority of the methods will
+require only one line of code.*)
+
+For your reference, here are **abbreviated** specifications for the methods of RectangularRoom
+and Robot. See ps6.py for complete details.
+
+    class RectangularRoom(object):
+        """
+        A RectangularRoom represents a rectangular region containing clean or dirty
+        tiles. A room has a width and a height and contains (width * height) tiles. At
+        any particular time, each of these tiles is either clean or dirty.
+        """
+        
+        def __init__(self, width, height):
+            """
+            Initializes a rectangular room with the specified width and height.
+            Initially, no tiles in the room have been cleaned.
+            """
+        
+        def cleanTileAtPosition(self, pos):
+            """Mark the tile under the position POS as cleaned."""
+        
+        def isTileCleaned(self, m, n):
+            """Return True if the tile (m, n) has been cleaned."""
+        
+        def getNumTiles(self):
+            """Return the total number of tiles in the room."""
+        
+        def getNumCleanedTiles(self):
+            """Return the total number of clean tiles in the room."""
+        
+        def getRandomPosition(self):
+            """Return a random position inside the room."""
+        
+        def isPositionInRoom(self, pos):
+            """Return True if POS is inside the room."""
+    
+    class Robot(object):
+        """
+        Represents a robot cleaning a particular room.
+        At all times the robot has a particular position and direction in the room.
+        The robot also has a fixed speed.
+        Subclasses of Robot should provide movement strategies by implementing
+        updatePositionAndClean(), which simulates a single time-step.
+        """
+        def __init__(self, room, speed):
+            """
+            Initializes a Robot with the given speed in the specified room. The
+            robot initially has a random direction and a random position in the
+            room. The robot cleans the tile it is on.
+            """
+            
+            def getRobotPosition(self):
+                """Return the position of the robot."""
+            
+            def getRobotDirection(self):
+                """Return the direction of the robot."""
+            
+            def setRobotPosition(self, position):
+                """Set the position of the robot."""
+            
+            def setRobotDirection(self, direction):
+                """Set the direction of the robot."""
+            
+            def updatePositionAndClean(self):
+                """Simulate the passage of a single time-step."""
+
+# Under Construction!
