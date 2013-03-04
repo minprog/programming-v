@@ -150,13 +150,12 @@ as well as the position and direction of each robot.
 In ps6.py, we’ve provided skeletons for the following two classes, which you will fill in in
 Problem #1:
 
-**RectangularRoom** Represents the space to be cleaned and keeps track of which tiles have been cleaned.
-
-**Robot** Stores the position and heading of a robot.
+* **RectangularRoom** Represents the space to be cleaned and keeps track of which tiles have been cleaned.
+* **Robot** Stores the position and heading of a robot.
 
 We’ve also provided a complete implementation of the following class:
 
-**Position** Stores the x- and y-coordinates of a robot in a room.
+* **Position** Stores the x- and y-coordinates of a robot in a room.
 
 **Read ps6.py carefully before starting, so that you understand the provided code and its capabilities.**
 
