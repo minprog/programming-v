@@ -393,3 +393,70 @@ For problems 4 and 6, you will want to make calls to *runSimulation()* to get si
 and plot it. However, you don’t want the visualization getting in the way. If you choose to do this
 visualization exercise, before you get started on problems 4 and 6 and before you turn your
 problem set in, make sure to comment the visualization code out of *runSimulation()*.
+
+#### Problem #4
+
+Now, use your simulation to answer some questions about the robots’ performance.
+
+Note: The instructions in the code for Problems 4-6 are slightly different than the instructions
+that follow here. Follow the instructions in this write up!
+
+For both of the questions below, **write code which will generate a plot using matplotlib**. Put your
+code inside the corresponding skeleton functions in ps6.py (showPlot1 and showPlot2).
+
+Each plot should have a title and descriptive labels on both axes.
+
+1. How long does it take to clean 80% of a 20×20 room with each of 1-10 robots? Output a
+figure that plots the mean time (on the Y-axis) against the number of robots.
+2. How long does it take two robots to clean 80% of rooms with dimensions 20×20, 25×16,
+40×10, 50×8, 80×5, and 100×4? (Notice that the rooms have the same area.) Output a
+figure that plots the mean time (on the Y-axis) against the ratio of width to height.
+
+Experiment with the number of trials. For your plots, use a number of trials which is large
+enough that you think the output is reliable.
+
+Here is an example of a good plot:
+
+![plot](plot.png)
+
+As you can see, when keeping the number of robots fixed, the time it takes to clean a square
+room is basically proportional to the area of that room.
+
+#### Problem #5
+
+iRobot is testing out a new robot design. The proposed new robots differ in that they change
+direction randomly **after every time step**, rather than just when they run into walls. You have
+been asked to design a simulation to determine what effect, if any, this change has on room
+cleaning times.
+
+Write a new class RandomWalkRobot that inherits from Robot (like StandardRobot) but
+implements the new movement strategy. RandomWalkRobot should have the same interface
+as StandardRobot.
+
+**Test out your new class**. Perform a single trial with the new RandomWalkRobot implementation
+and watch the visualization to make sure it is doing the right thing. Once you are satisfied, you
+can call runSimulation again, passing RandomWalkRobot instead of StandardRobot.
+
+#### Problem #6
+
+**Generate an appropriate plot (of your own design)** that compares the performance of the
+two types of robots. Add your code to showPlot3(). As always, your plot should have an
+appropriate title, axis labels, and (if applicable) legend.
+
+Within comments in showPlot3, comment briefly on how the two types of robots compare.
+
+## Hand-In Procedure
+
+1. Save your code in a single file, named ps6.py.
+2. Run your file to make sure it has no syntax errors. Run your plotting functions to make sure they
+produce plots when run. Test your runSimulation to make sure that it still works with both
+the StandardRobot and RandomWalkRobot classes. (It’s common to accidentally break code
+while refactoring, which is one reason that testing is really important!)
+3. At the start of your file, in a comment, write down the number of hours (roughly) you spent on
+the problems, and the names of the people you collaborated with. For example:
+
+    # Problem Set 6
+    # Name: Jane Lee
+    # Collaborators: John Doe
+    # Time: 3:30
+    ... your code goes here ...
