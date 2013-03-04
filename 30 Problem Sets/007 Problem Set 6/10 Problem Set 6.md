@@ -440,10 +440,10 @@ can call runSimulation again, passing RandomWalkRobot instead of StandardRobot.
 #### Problem #6
 
 **Generate an appropriate plot (of your own design)** that compares the performance of the
-two types of robots. Add your code to showPlot3(). As always, your plot should have an
+two types of robots. Add your code to *showPlot3()*. As always, your plot should have an
 appropriate title, axis labels, and (if applicable) legend.
 
-Within comments in showPlot3, comment briefly on how the two types of robots compare.
+Within comments in *showPlot3*, comment briefly on how the two types of robots compare.
 
 ## Hand-In Procedure
 
@@ -455,8 +455,9 @@ while refactoring, which is one reason that testing is really important!)
 3. At the start of your file, in a comment, write down the number of hours (roughly) you spent on
 the problems, and the names of the people you collaborated with. For example:
 
-    # Problem Set 6
-    # Name: Jane Lee
-    # Collaborators: John Doe
-    # Time: 3:30
-    ... your code goes here ...
+        # Problem Set 6
+        # Name: Jane Lee
+        # Collaborators: John Doe
+        # Time: 3:30
+        ... your code goes here ...
+
