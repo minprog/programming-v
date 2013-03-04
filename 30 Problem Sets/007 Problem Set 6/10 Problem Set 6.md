@@ -360,15 +360,15 @@ line to the top of your ps6.py:
 
 Here’s how to run the visualization:
 
-1. In your simulation, at the beginning of a trial, do the following to start an animation:
-*anim = ps6_visualize.RobotVisualization(num_robots, width, height)*
+1. In your simulation, at the beginning of a trial, do the following to start an animation:  
+*anim = ps6_visualize.RobotVisualization(num_robots, width, height)*  
 (Pass in parameters appropriate to the trial, of course.) This will open a new window to
 display the animation and draw a picture of the room.
-2. Then, on each time-step, do the following to draw a new frame of the animation:
-*anim.update(room, robots)*
+2. Then, on each time-step, do the following to draw a new frame of the animation:  
+*anim.update(room, robots)*  
 Pass in a RectangularRoom object and a list of Robot objects representing the current
 state of the room and the robots in the room.
-3. When the trial is over, call the following method:
+3. When the trial is over, call the following method:  
 *anim.done()*
 
 The resulting animation will look like this:
