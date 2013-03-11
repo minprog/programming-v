@@ -200,4 +200,91 @@ You will test your implementation in problem 2.
             """
             # TODO
 
+### Problem 2: Running and Analyzing a Simple Simulation (No Drug Treatment)
+
+You should start by understanding the population dynamics before introducing any drug. Fill in
+the function *simulationWithoutDrug()*. This method should instantiate a SimplePatient and
+repeatedly call the update method to simulate changes in the virus population over time. Save
+the population values over the course of the simulation and use matplotlib to plot the virus population
+as a function of time. Be sure to title and label your plot.
+
+SimplePatient should be instantiated with the following parameters:
+
+* _viruses_, a list of 100 SimpleVirus instances
+* _maxPop_, Maximum Sustainable Virus Population = 1000
+
+Each SimpleVirus instance in the viruses list should be initialized with the following
+parameters:
+
+* _maxBirthProb_, Maximum Reproduction Probability for a Virus Particle = 0.1
+* _clearProb_, Maximum Clearance Probability for a Virus Particle = 0.05
+
+Fill in the function *simulationWithoutDrug()* that instantiates a patient, simulates changes to
+the virus population for 300 time steps (i.e. 300 calls to update), and plots the virus population
+as a function of time; that is, the x-axis should correspond the number of elapsed time steps, and
+y-axis the population of the virus in the patient. Run the simulation many times (without setting
+the seed). Produce a single plot that is representative of the average case as a result of running
+the simulation many times. Don’t forget to include axes labels, a key for the curves, and a title on
+your plot.
+
+Save the plot as **ps7_plot.png** and use a simple image editing program (e.g. MS Paint) to mark the point
+on the x-axis where the population stops growing. Save the result and include it in your submit.
+
+    def simulationWithoutDrug():
+        """
+        Run the simulation and plot the graph for problem 2 (no drugs are used,
+        viruses do not have any drug resistance).
+        Instantiates a patient, runs a simulation for 300 timesteps, and plots
+        the
+        total virus population as a function of time.
+        """
+        # TODO
+
+**HINT:** Compared to the previous problem sets, testing your simulation code is more
+challenging, because the behavior of the code is stochastic, and the expected output is not exactly
+known. How do you know whether your plots are correct or not? One way to test this is to run
+the simulation with extreme input values (i.e. initialization parameters), and check that the output
+matches your intution. For example, if *codemaxBirthProb* is set to 0.99 instead of 0.1, then you
+would expect that the virus population rapidly increases over a short period of time. Similarly, if
+you run your simulation with *clearProb = 0.99* and *maxBirthProb = 0.1*, then you should see
+the virus population quickly decreasing within a small number of steps. You can also try to vary
+the input values, and check whether the output plots change as you expect. For example, if you
+run multiple simuation runs, each time increasing maxBirthProb, the curves in the successive
+plots should show an “upward” trend, since the virus will reproduce faster with a higher
+*maxBirthProb*.
+
+*To be continued in Problem Set 8 ...*
+
+### Problem 3 : Probabilities
+
+This part of the problem set involves some pencil-and-paper exercises, as well as a brief bit of
+coding. It will help you practice and understand simple probability and statistics. Include the
+answers for parts 1 and 2 as formulas in **ps7_prob.txt**, and the code from part 3 in the file
+**ps7b.py**.
+
+1. You flip a fair coin 3 times, write down the probability of the below events. Assume all
+sequences are equally likely.
+    1. Three heads: A : {H,H,H}
+    2. The sequence head, tail, head: A : {H,T,H}
+    3. Any sequence with 2 heads and 1 tail
+    4. Any sequence where the number of heads is greater than or equal to the number of tails
+2. What is the probability of rolling a Yahtzee! on the first roll? That is, what is the
+probability of rolling five 6-sided dice, and having them all display the same number?
+3. Write a Monte Carlo simulation to solve the above problem (the Yahtzee problem), and
+submit your code as ps7b.py.
+
+### Hand-In Procedure
+
+1. Save your solutions as **ps7.py**, **ps7b.py**, **ps7_plot.png** and **ps7_prob.txt**.
+2. At the start of each file, in a comment, write down the number of hours (roughly) you spent on
+the problems in that part, and the names of the people you collaborated with. For example:
+
+        # Problem Set 7
+        # Name: Jane Lee
+        # Collaborators: John Doe
+        # Time: 3:30
+        #
+        ... your code goes here ...
+3. After you are done with the problem set, do sanity checks. Run the code and make sure it can be
+run without errors. You should never submit code that immediately generates an error when run!
 
