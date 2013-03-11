@@ -6,8 +6,8 @@ In this problem set, using Python and matplotlib you will design and implement a
 simulation of patient and virus population dynamics, and reach conclusions about treatment
 regimens based on the simulation results.
 
-You should submit 3 files for this problem set: your code in ps7.py and ps7b.py, and a write-
-up in txt format called writeup.txt.
+You should submit 4 files for this problem set: your code in **ps7.py** and **ps7b.py**, a plot
+image **ps7_plot.png** and answers to some math questions in **ps7_prob.txt**.
 
 
 ### Getting Started
@@ -66,7 +66,7 @@ viruses do not acquire resistance to drugs. We simply model the virus population
 as if it were left untreated.
 
 To implement this model, you will need to fill in the SimpleVirus class, which maintains the
-state of a single virus particle. You will implement the methods *__init__*, *doesClear*, and
+state of a single virus particle. You will implement the methods *\_\_init\_\_*, *doesClear*, and
 *reproduce* according to the specifications. Use *random.random()* for generating random
 numbers to ensure that your results are consistent with ours.
 
@@ -163,8 +163,7 @@ You will test your implementation in problem 2.
     
     class SimplePatient(object):
         """
-        Representation of a simplified patient. The patient does not take any
-        drugs
+        Representation of a simplified patient. The patient does not take any drugs
         and his/her virus populations have no drug resistance.
         """
         
