@@ -272,7 +272,7 @@ probability of rolling five 6-sided dice, and having them all display the same n
 3. Write a Monte Carlo simulation to solve the above problem (the Yahtzee problem), and
 submit your code as ps7b.py.
 
-### Hand-In Procedure
+## Hand-In Procedure
 
 1. Save your solutions as **ps7.py**, **ps7b.py**, **ps7_plot.png** and **ps7_prob.txt**.
 2. At the start of each file, in a comment, write down the number of hours (roughly) you spent on
