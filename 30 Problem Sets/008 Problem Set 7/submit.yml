@@ -2,4 +2,5 @@ name: ps07
 required:
   - ps7.py
   - ps7b.py
-  - writeup.pdf
+  - ps7_plot.png
+  - ps7_prob.txt
