@@ -100,11 +100,9 @@ and should be calculated in the update method of the SimplePatient class.
         
         def doesClear(self):
             """
-            Stochastically determines whether this virus particle is cleared from
-            the
+            Stochastically determines whether this virus particle is cleared from the
             patient's body at a time step.
-            returns: True with probability self.clearProb and otherwise returns
-            False.
+            returns: True with probability self.clearProb and otherwise returns False.
             """
             # TODO
         
@@ -114,8 +112,7 @@ and should be calculated in the update method of the SimplePatient class.
             time step. Called by the update() method in the SimplePatient and
             Patient classes. The virus particle reproduces with probability
             self.maxBirthProb * (1 - popDensity).
-            If this virus particle reproduces, then reproduce() creates and
-            returns
+            If this virus particle reproduces, then reproduce() creates and returns
             the instance of the offspring SimpleVirus (which has the same
             maxBirthProb and clearProb values as its parent).
             popDensity: the population density (a float), defined as the current
@@ -233,8 +230,7 @@ on the x-axis where the population stops growing. Save the result and include it
         """
         Run the simulation and plot the graph for problem 2 (no drugs are used,
         viruses do not have any drug resistance).
-        Instantiates a patient, runs a simulation for 300 timesteps, and plots
-        the
+        Instantiates a patient, runs a simulation for 300 timesteps, and plots the
         total virus population as a function of time.
         """
         # TODO
