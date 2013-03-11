@@ -25,7 +25,7 @@ This is a package for plotting graphs, barcharts and other visual representation
 
 Some [sample images], you can click on the images for the code and the [matplotlib documentation].
 
-[sample images]: matplotlib.org/gallery.html
+[sample images]: http://matplotlib.org/gallery.html
 [matplotlib documentation]: http://matplotlib.org/contents.html
 
 #### Numpy
