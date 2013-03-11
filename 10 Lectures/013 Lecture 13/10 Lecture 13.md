@@ -1,4 +1,4 @@
-# Lecture 12: Some Basic Probability and Plotting Data
+# Lecture 13: Some Basic Probability and Plotting Data
 
 <iframe width="640" height="360" src="http://www.youtube.com/embed/hGQw3KJ7i6Q?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 

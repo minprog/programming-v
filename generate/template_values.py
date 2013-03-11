@@ -244,7 +244,7 @@ LECTURE_12 = \
 }
 
 LECTURE_13 = \
-{ 'id': 12
+{ 'id': 13
 , 'title': 'Some Basic Probability and Plotting Data'
 , 'embed': '<iframe width="640" height="360" src="http://www.youtube.com/embed/hGQw3KJ7i6Q?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>'
 , 'iTunes': 'http://itunes.apple.com/us/itunes-u/lecture-13-some-basic-probability/id499270153?i=110101042'
