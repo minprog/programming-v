@@ -1,4 +1,3 @@
-
 # Simulating the Spread of Disease and Virus Population (continued from Problem Set 7)
 
 ### Introduction
@@ -8,7 +7,7 @@ simulation of patient and virus population dynamics, and reach conclusions about
 regimens based on the simulation results.
 
 You should submit 6 files for this problem set: your code in *ps8.py*, 4 plot images *(ps8_plot(1-4).png)*
-and a text file containing answers to the questions from the problems *ps8_ans.txt*, which
+and a text file containing answers to the questions from the problems *ps8_ans.txt*, which should
 only be a couple sentences per problem. We are not looking for long expositions, just answer 
 the questions completely and concisely.
 
