@@ -221,8 +221,8 @@ Create 2 plots: the record of the average total population and the average popul
 guttagonol-resistant virus particles. Combine the 2 plots using matplotlib's *subplot()* and
 save the figure as **ps8_plot1.png**.
 
-In **ps8_ans.txt** include answers to (2.1) What trends do you observe?
-(2.2) Are the trends consistent with your intuition?
+In **ps8_ans.txt** include answers to *(2.1)* What trends do you observe?
+*(2.2)* Are the trends consistent with your intuition?
 
     def simulationWithDrug():
         """
@@ -260,10 +260,10 @@ number of trials.
 
 Combine the 4 histograms using matplotlib's *subplot()* function (one for each condition of 300, 150,
 75, and 0 time step delays) and save the figure as **ps8_plot2.png**. Add the answers to the following
-questions to **ps8_ans.txt**. (3.1) If you consider final virus particle counts of
+questions to **ps8_ans.txt**. *(3.1)* If you consider final virus particle counts of
 0-50 to be cured (or in remission), what percentage of patients were cured (or in remission) at the
-end of the simulation? (3.2) What is the relationship between the number of patients cured (or in
-remission) and the delay in treatment? (3.3) Explain how this relationship arises from the model.
+end of the simulation? *(3.2)* What is the relationship between the number of patients cured (or in
+remission) and the delay in treatment? *(3.3)* Explain how this relationship arises from the model.
 
     def simulationDelayedTreatment():
         """
@@ -311,8 +311,8 @@ monitor the simulation’s progress.
 
 Combine the 4 histograms using matplotlib's *subplot()* function (one for each condition of 300, 150,
 75, and 0 time step delays) and save the figure as **ps8_plot3.png**. Add the answers to the following
-questions to **ps8_ans.txt**. (4.1) What percentage of patients were cured (or in remission) at
-the end of the simulation? (4.2) What is the relationship between the number of patients cured
+questions to **ps8_ans.txt**. *(4.1)* What percentage of patients were cured (or in remission) at
+the end of the simulation? *(4.2)* What is the relationship between the number of patients cured
 (or in remission) and the time between administering the two drugs?
 
     def simulationTwoDrugsDelayedTreatment():
@@ -348,7 +348,7 @@ virus, the population of grimpex-resistant virus, and the population of viruses 
 both drugs as a function of time.
 
 Combine the 2 plots using matplotlib's *subplot()* function and save the figure as **ps8_plot4.png**.
-In **ps8_ans.txt** try to explain (5.1) the relationship between
+In **ps8_ans.txt** try to explain *(5.1)* the relationship between
 the patient outcome and the time between administering the two drugs arises.
     
     def simulationTwoDrugsVirusPopulations():
@@ -365,7 +365,7 @@ the patient outcome and the time between administering the two drugs arises.
 ## Problem 6: Patient Non-compliance
 
 A very common problem is that a patient may not consistently take the drugs they are prescribed.
-They can sometimes forget or refuse to take their drugs. Describe in your writeup (do not write
+They can sometimes forget or refuse to take their drugs. In **ps8_ans.txt** *(6.1)* describe (do not write
 any code) how you would model such effects.
 
 ## Hand-In Procedure
