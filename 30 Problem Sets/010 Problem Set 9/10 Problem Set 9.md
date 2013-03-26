@@ -200,73 +200,77 @@ constraints.
 
 Implement bruteForceAdvisor in ps9.py:
 
-def bruteForceAdvisor(subjects, maxWork):
-"""
-Returns a dictionary mapping subject name to (value, work), which
-represents the globally optimal selection of subjects using a brute force
-algorithm.
-subjects: dictionary mapping subject name to (value, work)
-maxWork: int >= 0
-returns: dictionary mapping subject name to (value, work)
-"""
-# TODO...
+    def bruteForceAdvisor(subjects, maxWork):
+        """
+        Returns a dictionary mapping subject name to (value, work), which
+        represents the globally optimal selection of subjects using a brute force
+        algorithm.
+        subjects: dictionary mapping subject name to (value, work)
+        maxWork: int >= 0
+        returns: dictionary mapping subject name to (value, work)
+        """
+        # TODO...
+
 For this problem, it may be useful to define and call some helper functions.
 Do not worry about efficiency. This is a brute force algorithm after all. In fact, you will find that
 running bruteForceAdvisor on the full subject data may take an extremely long time, or even
 cause an OverflowError, depending on your implementation. You can test your code on
 shortened_subjects.txt and small values of maxWork:
->>> subjects = loadSubjects("shortened_subjects.txt")
->>> print bruteForceAdvisor(subjects, 3)
-{'6.00': (10, 1), '6.04': (1, 2)}
->>> print bruteForceAdvisor(subjects, 4)
-{'6.00': (10, 1), '6.17': (9, 3)}
->>> print bruteForceAdvisor(subjects, 5)
-{'6.00': (10, 1), '6.18': (10, 4)}
->>> print bruteForceAdvisor(subjects, 6)
-{'6.00': (10, 1), '6.18': (10, 4)}
->>> print bruteForceAdvisor(subjects, 7)
-{'6.00': (10, 1), '6.12': (6, 3), '6.17': (9, 3)}
+
+    >>> subjects = loadSubjects("shortened_subjects.txt")
+    >>> print bruteForceAdvisor(subjects, 3)
+    {'6.00': (10, 1), '6.04': (1, 2)}
+    >>> print bruteForceAdvisor(subjects, 4)
+    {'6.00': (10, 1), '6.17': (9, 3)}
+    >>> print bruteForceAdvisor(subjects, 5)
+    {'6.00': (10, 1), '6.18': (10, 4)}
+    >>> print bruteForceAdvisor(subjects, 6)
+    {'6.00': (10, 1), '6.18': (10, 4)}
+    >>> print bruteForceAdvisor(subjects, 7)
+    {'6.00': (10, 1), '6.12': (6, 3), '6.17': (9, 3)}
+
 Notice how the brute force algorithm returns better results than any of the greedy algorithms:
->>> subjects = loadSubjects("shortened_subjects.txt")
->>> print greedyAdvisor(subjects, 7, cmpValue)
-{'6.00': (10, 1), '6.18': (10, 4), '6.04': (1, 2)}
->>> print greedyAdvisor(subjects, 7, cmpWork)
-{'6.00': (10, 1), '6.17': (9, 3), '6.04': (1, 2)}
->>> print greedyAdvisor(subjects, 5, cmpRatio)
-{'6.00': (10, 1), '6.17': (9, 3)}
+
+    >>> subjects = loadSubjects("shortened_subjects.txt")
+    >>> print greedyAdvisor(subjects, 7, cmpValue)
+    {'6.00': (10, 1), '6.18': (10, 4), '6.04': (1, 2)}
+    >>> print greedyAdvisor(subjects, 7, cmpWork)
+    {'6.00': (10, 1), '6.17': (9, 3), '6.04': (1, 2)}
+    >>> print greedyAdvisor(subjects, 5, cmpRatio)
+    {'6.00': (10, 1), '6.17': (9, 3)}
+
 However, a brute force algorithm takes a long time! Later in the course, we will discuss dynamic
 programming, which is a way we can speed up these algorithms.
-Problem 4: How efficient are these algorithms?
-Answer the following questions in the file ps9_writeup.pdf:
+
+### Problem 4: How efficient are these algorithms?
+
+Answer the following questions in the file ps9_ans.txt:
+
 1. What is the algorithmic complexity of greedyAdvisor?
 2. What is the algorithmic complexity of bruteForceAdvisor?
 3. Assuming 1 microsecond (1 microsecond = 1×10^-6 seconds) to compute the value of a
 solution in bruteForceAdvisor, how much time in years (365 days per year) would it take
 for bruteForceAdvisor to find an optimal solution for the following number of subjects:
-1. 8 subjects?
-2. 16 subjects?
-3. 32 subjects?
-4. 321 subjects (the number of courses in the problem set)?
-Hand-In Procedure
-1. Save
-Save your solutions as ps9.py. Your writeup should be called ps9_writeup.pdf.
-2. Time and Collaboration Info
-At the start of each file, in a comment, write down the number of hours (roughly) you spent on
+    1. 8 subjects?
+    2. 16 subjects?
+    3. 32 subjects?
+    4. 321 subjects (the number of courses in the problem set)?
+
+### Hand-In Procedure
+
+1. Save your solutions as **ps9.py**. Your answers should be called **ps9_ans.txt**.
+2. At the start of each file, in a comment, write down the number of hours (roughly) you spent on
 the problems in that part, and the names of the people you collaborated with. For example:
-# Problem Set 9
-# Name: Jane Lee
-# Collaborators: John Doe
-# Time: 3:30
-#
-... your code goes here ...
-3. Sanity checks
-After you are done with the problem set, do these sanity checks:
-•
-•
-Run the ps9.py file, and make sure it can be run without errors.
-Test your loadSubjects and make sure it can load the supplied subjects.txt.
-•
-Run each function you’ve implemented and make sure they return what you think they
+        # Problem Set 9
+        # Name: Jane Lee
+        # Collaborators: John Doe
+        # Time: 3:30
+        #
+        ... your code goes here ...
+3. After you are done with the problem set, do these sanity checks:
+
+* Run the ps9.py file, and make sure it can be run without errors.
+* Test your loadSubjects and make sure it can load the supplied subjects.txt.
+* Run each function you’ve implemented and make sure they return what you think they
 do.
-Also, make sure that your writeup contains everything we’ve asked for.
 
