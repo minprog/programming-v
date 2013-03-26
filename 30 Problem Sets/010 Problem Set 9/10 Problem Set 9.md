@@ -11,7 +11,7 @@ list of subjects that maximizes the amount of value.
 
 The goal of this problem set is to implement optimization algorithms.
 
-You should submit 2 files for this problem set: your code in **ps9.py**, and a write-up in pdf format
+You should submit 2 files for this problem set: your code in **ps9.py**, and some question answers
 called **ps9_ans.txt**.
 
 ### Getting Started
@@ -96,6 +96,7 @@ than the second. Here, the definition of “better” can be altered by passing 
 comparators.
 
 Implement the three comparators in ps9.py:
+
 * cmpValue, which compares the values of the subjects
 * cmpWork, which compares the workload of the subjects
 * cmpRatio, which compares the value/work ratios of the subjects
@@ -136,7 +137,7 @@ your function will select 6.01 followed by 15.01 and return:
 
 If we were to use the ratio comparator, your function would return:
 
->>> greedyAdvisor(smallCatalog, 15, cmpRatio)
+    >>> greedyAdvisor(smallCatalog, 15, cmpRatio)
 
 your function will select 6.00 followed by 6.01 and return:
 
@@ -187,7 +188,7 @@ or
     {'6.00': (10, 1), '6.12': (6, 3), '6.04': (1, 2)}
 
 The ordering of your output doesn’t matter, as long as your results match the constraints – so an
-output of \{'6.00':(10,1), '6.04': (1,2)\} for the above query wouldn’t be right, as it is still
+output of *\{'6.00':(10,1), '6.04': (1,2)\}( for the above query wouldn’t be right, as it is still
 possible to add another subject with the constraint of *maxWork = 7*. Finally, be sure to test your
 greedy algorithm on the full subject data from the *subjects.txt* file.
 
@@ -215,7 +216,7 @@ For this problem, it may be useful to define and call some helper functions.
 Do not worry about efficiency. This is a brute force algorithm after all. In fact, you will find that
 running bruteForceAdvisor on the full subject data may take an extremely long time, or even
 cause an OverflowError, depending on your implementation. You can test your code on
-shortened_subjects.txt and small values of maxWork:
+*shortened_subjects.txt* and small values of maxWork:
 
     >>> subjects = loadSubjects("shortened_subjects.txt")
     >>> print bruteForceAdvisor(subjects, 3)
@@ -260,17 +261,10 @@ for bruteForceAdvisor to find an optimal solution for the following number of su
 
 1. Save your solutions as **ps9.py**. Your answers should be called **ps9_ans.txt**.
 2. At the start of each file, in a comment, write down the number of hours (roughly) you spent on
-the problems in that part, and the names of the people you collaborated with. For example:
-        # Problem Set 9
-        # Name: Jane Lee
-        # Collaborators: John Doe
-        # Time: 3:30
-        #
-        ... your code goes here ...
+the problems in that part, and the names of the people you collaborated with.
 3. After you are done with the problem set, do these sanity checks:
-
-* Run the ps9.py file, and make sure it can be run without errors.
-* Test your loadSubjects and make sure it can load the supplied subjects.txt.
-* Run each function you’ve implemented and make sure they return what you think they
-do.
+    * Run the ps9.py file, and make sure it can be run without errors.
+    * Test your loadSubjects and make sure it can load the supplied subjects.txt.
+    * Run each function you’ve implemented and make sure they return what you think they
+    do.
 
