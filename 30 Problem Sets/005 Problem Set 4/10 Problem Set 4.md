@@ -98,8 +98,8 @@ pseudocode syntax exists, as a program in pseudocode is not an executable progra
 [wikipedia]: http://en.wikipedia.org/wiki/Pseudocode
 
 
-Please try to write out the pseudocode first  
-(before writing any Python code) and **have it checked by a course assistant.**
+Please try to write out the pseudocode first (before writing any Python code) and
+**have it checked by a course assistant.**
 
 ### Problem 1. Encryption and Decryption
 
@@ -293,7 +293,7 @@ To do this, implement the following function according to the specification.
         """
         ### TODO.
 
-Problem 4. Multi-level Code-breaking
+### Problem 4. Multi-level Code-breaking
 
 Your friend has sent you another message, but this one can’t be decrypted by your solution to
 Problem 2 — it must be using a multi-layer shift.
@@ -375,7 +375,7 @@ correctly until you have completed Problem 3.
 
 This problem is optional, because it depends on the type of correctness checks
 you implemented in problem 4 and thus results tend to vary between students. If
-you do not complete this problem, make sure you can pass the problem 4
+you do not complete this problem, make sure you can still pass the problem 4
 examples:
 
         s = apply_shifts("Do Androids Dream of Electric Sheep?", [(0,6), (3, 18), (12, 16)])
