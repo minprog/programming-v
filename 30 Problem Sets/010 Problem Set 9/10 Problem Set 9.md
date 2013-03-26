@@ -188,7 +188,7 @@ or
     {'6.00': (10, 1), '6.12': (6, 3), '6.04': (1, 2)}
 
 The ordering of your output doesn’t matter, as long as your results match the constraints – so an
-output of *\{'6.00':(10,1), '6.04': (1,2)\}( for the above query wouldn’t be right, as it is still
+output of *\{'6.00':(10,1), '6.04': (1,2)\}* for the above query wouldn’t be right, as it is still
 possible to add another subject with the constraint of *maxWork = 7*. Finally, be sure to test your
 greedy algorithm on the full subject data from the *subjects.txt* file.
 

@@ -98,33 +98,14 @@ pseudocode syntax exists, as a program in pseudocode is not an executable progra
 [wikipedia]: http://en.wikipedia.org/wiki/Pseudocode
 
 
-**If you are having difficulty with problems 2 or 4**, please try to write out the pseudocode first  
+Please try to write out the pseudocode first  
 (before writing any Python code) and **have it checked by a course assistant.**
 
 ### Problem 1. Encryption and Decryption
-Write a program to encrypt plaintext into ciphertext using the Caesar cipher. We have provided
-skeleton code for the following functions:
 
-    def build_coder(shift):
-        """
-        Returns a dict that can apply a Caesar cipher to a letter.
-        The cipher is defined by the shift value. Ignores non-letter characters
-        like punctuation and numbers.
-        shift: -27 < int < 27
-        returns: dict
-        Example:
-        >>> build_coder(3)
-        {' ': 'c', 'A': 'D', 'C': 'F', 'B': 'E', 'E': 'H', 'D': 'G', 'G': 'J',
-        'F': 'I', 'I': 'L', 'H': 'K', 'K': 'N', 'J': 'M', 'M': 'P', 'L': 'O',
-        'O': 'R', 'N': 'Q', 'Q': 'T', 'P': 'S', 'S': 'V', 'R': 'U', 'U': 'X',
-        'T': 'W', 'W': 'Z', 'V': 'Y', 'Y': 'A', 'X': ' ', 'Z': 'B', 'a': 'd',
-        'c': 'f', 'b': 'e', 'e': 'h', 'd': 'g', 'g': 'j', 'f': 'i', 'i': 'l',
-        'h': 'k', 'k': 'n', 'j': 'm', 'm': 'p', 'l': 'o', 'o': 'r', 'n': 'q',
-        'q': 't', 'p': 's', 's': 'v', 'r': 'u', 'u': 'x', 't': 'w', 'w': 'z',
-        'v': 'y', 'y': 'a', 'x': ' ', 'z': 'b'}
-        (The order of the key-value pairs may be different.)
-        """
-        ### TODO.
+Write a program to encrypt plaintext into ciphertext using the Caesar cipher. We have provided
+skeleton code for the following functions (implement the functions in the order
+they are listed here): 
     
     def build_encoder(shift):
         """
@@ -175,6 +156,27 @@ skeleton code for the following functions:
         'v': 's', 'y': 'v', 'x': 'u', 'z': 'w'}
         (The order of the key-value pairs may be different.)
         HINT : Use build_coder.
+        """
+        ### TODO.
+    
+    def build_coder(shift):
+        """
+        Returns a dict that can apply a Caesar cipher to a letter.
+        The cipher is defined by the shift value. Ignores non-letter characters
+        like punctuation and numbers.
+        shift: -27 < int < 27
+        returns: dict
+        Example:
+        >>> build_coder(3)
+        {' ': 'c', 'A': 'D', 'C': 'F', 'B': 'E', 'E': 'H', 'D': 'G', 'G': 'J',
+        'F': 'I', 'I': 'L', 'H': 'K', 'K': 'N', 'J': 'M', 'M': 'P', 'L': 'O',
+        'O': 'R', 'N': 'Q', 'Q': 'T', 'P': 'S', 'S': 'V', 'R': 'U', 'U': 'X',
+        'T': 'W', 'W': 'Z', 'V': 'Y', 'Y': 'A', 'X': ' ', 'Z': 'B', 'a': 'd',
+        'c': 'f', 'b': 'e', 'e': 'h', 'd': 'g', 'g': 'j', 'f': 'i', 'i': 'l',
+        'h': 'k', 'k': 'n', 'j': 'm', 'm': 'p', 'l': 'o', 'o': 'r', 'n': 'q',
+        'q': 't', 'p': 's', 's': 'v', 'r': 'u', 'u': 'x', 't': 'w', 'w': 'z',
+        'v': 'y', 'y': 'a', 'x': ' ', 'z': 'b'}
+        (The order of the key-value pairs may be different.)
         """
         ### TODO.
     
@@ -303,8 +305,8 @@ it is guaranteed to remain correct at least until the next occurrence of a space
 #### Part a: Pseudocode
 
 As in Problem 2, Part b, we want you to sketch out a high level step-by-step algorithm for
-solving this problem. HINT: Use recursion. Save your steps in ps4.txt and upload this to your
-workspace.
+solving this problem. HINT: Use recursion. **Have this pseudocode checked by a
+course assistant!**
 
 #### Part b: Python code
 
@@ -343,8 +345,8 @@ To solve this problem successfully, we highly recommend that you use recursion (
 recursion again?). The non-recursive version of this function is much more difficult to
 understand and code. The key to getting the recursion correct is in understanding the seemingly
 unnecessary parameter 'start'. As always with recursion, you should begin by thinking about
-your base case, the simplest possible sub-problem you will need to solve. What value of start
-would make a good base case? (Hint: the answer is NOT zero.)
+your base case, the final step of recursion, when the return statement does not contain a
+function call. What value of start would make a good base case?
 
 To help you test your code, we’ve given you two simple helper functions:
 *random_string(wordlist, n)* generates n random words from wordlist and returns them in a string.
@@ -369,12 +371,23 @@ correctly until you have completed Problem 3.
         """
         ### TODO.
 
-### Problem 5. The Moral of the Story
+### [Optional] Problem 5. The Moral of the Story
+
+This problem is optional, because it depends on the type of correctness checks
+you implemented in problem 4 and thus results tend to vary between students. If
+you do not complete this problem, make sure you can pass the problem 4
+examples:
+
+        s = apply_shifts("Do Androids Dream of Electric Sheep?", [(0,6), (3, 18), (12, 16)])
+        print s
+        shifts = find_best_shifts(wordlist, s)
+        print shifts
+        print apply_shifts(s, shifts)
 
 Now that you have all the pieces to the puzzle, please use them to decode the file, fable.txt. At
 the bottom of the skeleton file, you will see a method **get\_fable\_string()** that will return the
 encrypted version of the fable. Create the following method and include as a comment at the end
-of the problem set how the fable relates to your education at UvA.
+of the problem set how the fable relates to your education at MIT.
 
     def decrypt_fable():
         """
