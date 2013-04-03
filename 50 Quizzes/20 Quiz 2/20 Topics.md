@@ -14,7 +14,7 @@
         * Polynomial 
         * Linear 
         * Log 
-    *Amortized analysis
+    * Amortized analysis
 * Linguistic issues
     * Values, types, expressions variables
     * Builtin types: int, float, string, list, dictionary, tuple
