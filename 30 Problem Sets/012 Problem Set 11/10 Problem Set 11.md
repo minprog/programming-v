@@ -36,12 +36,16 @@ start or destination node because you can traverse the edge from one node to the
 direction. Essentially, a link in the graph can be represented by a directed edge going from Node
 “d” to Node “e” and a directed edge going in the reverse direction.
 
-![graph2](graph2.gif "Figure 2. Example of an undirected graph where each edge is bidirectional.")
+![graph2](graph2.gif)
+
+*Figure 2. Example of an __undirected__ graph where each edge is bidirectional.*
 
 An edge can also have a weight. If every edge is associated with a real number (edge weight),
 then we have weighted graph.
 
-![graph3](graph3.gif "Figure 3. Example of an weighted graph where each edge has a weight associated with it.")
+![graph3](graph3.gif)
+
+*Figure 3. Example of a __weighted__ graph where each edge has a weight associated with it.*
 
 In a graph theory problem, the **objective function** is the function to be minimized (or
 maximized). For example, choosing the shortest path for airplane flights is an optimization
@@ -138,14 +142,18 @@ nodes [n1, n2, ... nk], where n1 to nk are existing nodes in the graph and there
 ni+1 for i=1 to k – 1. In Figure 4, each edge is unweighted, so you can assume that each edge is
 length 1, and then the total distance traveled on the path is 4.
 
-![prob3a](prob3a.gif "Figure 4. Example of a path from start to end node.")
+![prob3a](prob3a.gif)
+
+*Figure 4. Example of a path from start to end node.*
 
 Note that a graph can contain cycles. A cycle occurs in a graph if the path of nodes leads you
 back to a node that was already visited in the path. When building up possible paths, if you reach
 a cycle without knowing it, you could get stuck indefinitely by extending the path with the same
 nodes that have already been added to the path.
 
-![prob3b](prob3b.gif "Figure 5. Example of a cycle in a graph.")
+![prob3b](prob3b.gif)
+
+*Figure 5. Example of a cycle in a graph.*
 
 In our campus map problem, the total distance traveled on a path is equal to the sum of all total
 distances traveled between adjacent nodes on this path. Similarly, the distance spent outdoors
