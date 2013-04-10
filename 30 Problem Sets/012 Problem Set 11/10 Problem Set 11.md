@@ -155,12 +155,72 @@ nodes that have already been added to the path.
 
 *Figure 5. Example of a cycle in a graph.*
 
-In our campus map problem, the total distance traveled on a path is equal to the sum of all total
-distances traveled between adjacent nodes on this path. Similarly, the distance spent outdoors
+In our campus map problem, the total distance traveled on a path is equal to the sum of all **total
+distances traveled** between adjacent nodes on this path. Similarly, the **distance spent outdoors**
 on the path is equal to the sum of all distances spent outdoors on the edges in the path.
+
 Depending on the number of nodes and edges in a graph, there can be multiple valid paths from
-one node to another, which may consist of varying distances. We define the shortest path
-between two nodes to be the path with the least total distance traveled. In our campus map
+one node to another, which may consist of varying distances. We define the **shortest path**
+between two nodes to be the path with the **least total distance traveled**. In our campus map
 problem, one way to find the shortest path from one building to another is to do exhaustive
 enumeration of all possible paths in the map and then select the shortest one.
+
+How do we find a path in the graph? In the depth-first search algorithm, you try one route at a
+time while keeping track of routes tried so far. Work off the depth-first traversal algorithm
+covered in lecture to discover each of the nodes and their children nodes to build up possible
+paths. Note that you’ll have to adapt the algorithm to fit this problem. Read more about depth-
+first search on wikipedia].
+
+[here]: http://en.wikipedia.org/wiki/Depth-first_search 
+
+Implement the function *bruteForceSearch(digraph, start, end, maxTotalDist,
+maxDistOutdoor)* so that for a given digraph, you return the shortest path, from the start
+building to end building, such that the total distance traveled is less than or equal to
+*maxTotalDist* and that the total distance spent outdoors is less than or equal to
+*maxDistOutdoor.*
+Write a sentence describing what the optimization problem is in terms of what the function to
+minimize is and what the constraints are.
+
+    # Problem 3: Brute Force Search
+    #
+    # State the optimization problem as a function to minimize
+    # and the constraints
+    #
+
+Use the **depth-first** search approach from lecture to enumerate all possible paths from the start to
+end node on a given digraph. (Assume the start and end nodes are in the graph).
+
+Then select the paths that satisfy the constraint and from that group, pick the shortest path.
+Return this result as a list of nodes, [n1, n2, ... nk], where there exists an edge from ni to ni+1 in the
+digraph, for all 1 <= i < k. If multiple paths are still found, then return any one of them. If no
+path can be found to satisfy these constraints, then raise a ValueError exception.
+
+We strongly suggest the use of helper functions to implement *bruteForceSearch*
+
+    def bruteForceSearch(digraph, start, end, maxTotalDist, maxDistOutdoors):
+        """
+        Finds the shortest path from start to end using brute-force approach.
+        The total distance traveled on the path must not exceed maxTotalDist,
+        and the distance spent outdoor on this path must not exceed
+        maxDisOutdoors.
+
+        Parameters:
+        digraph: instance of class Digraph or its subclass
+        start, end: start & end building numbers (strings)
+        maxTotalDist : maximum total distance on a path (integer)
+        maxDistOutdoors: maximum distance spent outdoors on a path (integer)
+        
+        Assumes:
+        start and end are numbers for existing buildings in graph
+        
+        Returns:
+        The shortest-path from start to end, represented by
+        a list of building numbers (in strings), [n_1, n_2, ..., n_k],
+        where there exists an edge from n_i to n_(i+1) in digraph,
+        for all 1 <= i < k.
+        
+        If there exists no path that satisfies maxTotalDist and
+        maxDistOutdoors constraints, then raises a ValueError.
+        """
+        # TO DO
 
