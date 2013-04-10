@@ -27,19 +27,19 @@ There are two types of edges: directed and undirected. If the edge is directed, 
 specific direction going from start to destination node. Graphs with directed edges are called
 directed graphs (or **digraph**).
 
-![graph1](graph1.png "Figure 1. Example of a directed graph where each edge has a specific direction.")
+![graph1](graph1.gif "Figure 1. Example of a directed graph where each edge has a specific direction.")
 
 If the edge is undirected, also known as bidirectional, then it no longer matters which node is the
 start or destination node because you can traverse the edge from one node to the other in either
 direction. Essentially, a link in the graph can be represented by a directed edge going from Node
 “d” to Node “e” and a directed edge going in the reverse direction.
 
-![graph2](graph2.png "Figure 2. Example of an undirected graph where each edge is bidirectional.")
+![graph2](graph2.gif "Figure 2. Example of an undirected graph where each edge is bidirectional.")
 
 An edge can also have a weight. If every edge is associated with a real number (edge weight),
 then we have weighted graph.
 
-![graph3](graph3.png "Figure 3. Example of an weighted graph where each edge has a weight associated with it.")
+![graph3](graph3.gif "Figure 3. Example of an weighted graph where each edge has a weight associated with it.")
 
 In a graph theory problem, the **objective function** is the function to be minimized (or
 maximized). For example, choosing the shortest path for airplane flights is an optimization
@@ -51,7 +51,7 @@ valid if it satisfies the constraint.
 
 ### Introduction
 
-![map](map.png)
+![map](map.gif)
 
 Here is the map of the MIT campus that we all know and love. From the text input file,
 *mit_map.txt*, you will build a representation of this map in Python using the graph-related data
@@ -82,7 +82,7 @@ traveled of 22 meters, where 14 of those meters are spent outdoors. These weight
 when comparing multiple paths because you want to look at the weights associated with the
 edges in the path instead of just the number of edges traversed.
 
-![prob1](prob1.png)
+![prob1](prob1.gif)
 
 In *graph.py*, you’ll find the Digraph, Node, and Edge classes, which do not store information
 about weights associated with each edge.
