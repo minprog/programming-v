@@ -27,7 +27,9 @@ There are two types of edges: directed and undirected. If the edge is directed, 
 specific direction going from start to destination node. Graphs with directed edges are called
 directed graphs (or **digraph**).
 
-![graph1](graph1.gif "Figure 1. Example of a directed graph where each edge has a specific direction.")
+![graph1](graph1.gif)
+
+*Figure 1. Example of a __directed__ graph where each edge has a specific direction.*
 
 If the edge is undirected, also known as bidirectional, then it no longer matters which node is the
 start or destination node because you can traverse the edge from one node to the other in either
