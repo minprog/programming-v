@@ -93,3 +93,64 @@ subclass the provided classes to add your own functionality to the new classes. 
 representation to use in order to build up the graph is the most challenging part of the problem
 set, so think through the problem carefully.
 
+## Problem 2: Building up the Campus Map
+
+Decide how the campus map problem can be modeled as a graph. Write a description of your
+design approach as a comment under the Problem #1 heading in ps11.py. What do the graph’s
+nodes represent in this problem? What do the graph’s edges represent in this problem?
+
+    # Problem 2:
+    #
+    # Write a couple of sentences describing how you will model the
+    # problem as a graph)
+    #
+
+In the load_map function of ps11.py read in the building data from mapFilename and build a
+directed graph to properly represent the MIT campus map (according to the file). Hint: read
+[documentation] on file objects in order to figure out how to read each line of the text file. Then
+parse each line with the help of string.split.
+
+[documentation]: http://docs.python.org/tutorial/inputoutput.html#reading-and-writing-files
+    
+    def load_map(mapFilename):
+        """
+        Parses the map file and constructs a directed graph
+        Parameters:
+        mapFilename : name of the map file
+        Assumes:
+        Each entry in the map file consists of the following four
+        positive integers, separated by a blank space:
+        From To TotalDistance DistanceOutdoors
+        e.g.
+        32 76 54 23
+        This entry would become an edge from 32 to 76.
+        Returns:
+        a directed graph representing the map
+        """
+        # TO DO
+
+## Problem 3: Find the Shortest Path using Brute Force
+
+We can define a valid path from a given start to end node in a graph as an ordered sequence of
+nodes [n1, n2, ... nk], where n1 to nk are existing nodes in the graph and there is an edge from ni to
+ni+1 for i=1 to k – 1. In Figure 4, each edge is unweighted, so you can assume that each edge is
+length 1, and then the total distance traveled on the path is 4.
+
+![prob3a](prob3a.gif "Figure 4. Example of a path from start to end node.")
+
+Note that a graph can contain cycles. A cycle occurs in a graph if the path of nodes leads you
+back to a node that was already visited in the path. When building up possible paths, if you reach
+a cycle without knowing it, you could get stuck indefinitely by extending the path with the same
+nodes that have already been added to the path.
+
+![prob3b](prob3b.gif "Figure 5. Example of a cycle in a graph.")
+
+In our campus map problem, the total distance traveled on a path is equal to the sum of all total
+distances traveled between adjacent nodes on this path. Similarly, the distance spent outdoors
+on the path is equal to the sum of all distances spent outdoors on the edges in the path.
+Depending on the number of nodes and edges in a graph, there can be multiple valid paths from
+one node to another, which may consist of varying distances. We define the shortest path
+between two nodes to be the path with the least total distance traveled. In our campus map
+problem, one way to find the shortest path from one building to another is to do exhaustive
+enumeration of all possible paths in the map and then select the shortest one.
+
