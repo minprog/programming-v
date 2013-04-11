@@ -169,9 +169,9 @@ How do we find a path in the graph? In the depth-first search algorithm, you try
 time while keeping track of routes tried so far. Work off the depth-first traversal algorithm
 covered in lecture to discover each of the nodes and their children nodes to build up possible
 paths. Note that you’ll have to adapt the algorithm to fit this problem. Read more about depth-
-first search on wikipedia].
+first search on [wikipedia].
 
-[here]: http://en.wikipedia.org/wiki/Depth-first_search 
+[wikipedia]: http://en.wikipedia.org/wiki/Depth-first_search 
 
 Implement the function *bruteForceSearch(digraph, start, end, maxTotalDist,
 maxDistOutdoor)* so that for a given digraph, you return the shortest path, from the start
