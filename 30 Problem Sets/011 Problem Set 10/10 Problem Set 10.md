@@ -1,5 +1,5 @@
 
-# Clustering
+# Clustering: UNDER CONSTRUCTION
 
 ### Introduction
 
@@ -20,7 +20,7 @@ Download the zip [here], containing:
 
 [here]: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ps10.zip
 
-**TODO: Submit all your answers to the written questions in a single file called ps10_writeup.pdf.**
+**TODO: writeup? and submit.yml**
 
 ### Background Overview
 
