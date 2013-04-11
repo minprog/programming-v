@@ -224,3 +224,68 @@ We strongly suggest the use of helper functions to implement *bruteForceSearch*
         """
         # TO DO
 
+## Problem 4: Optimized Method for Finding the Shortest Path
+
+Since enumerating all the paths is inefficient, let’s optimize our search algorithm for the shortest
+path. As you discover new children nodes in your depth-first search, you can keep track of the
+shortest path that so far that minimizes the distance traveled and minimizes the distance outdoors
+to fit the constraints.
+
+If you come across a path that is longer than your shortest path found so far, then you know that
+this longer path cannot be your solution, so there is no point in continuing to traverse its children
+and discover all paths that contain this sub-path.
+
+Implement the function *directedDFS(digraph, start, end, maxTotalDist,
+maxDistOutdoor)* that uses this optimized method to find the shortest path in a directed graph
+from start node to end node such that the total distance travelled is less than or equal to
+*maxtotalDist* and that the total distance spent outdoors is less than or equal to
+*maxDistOutdoor*. If multiple paths are still found, then return any one of them. If no path can be
+found to satisfy these constraints, then raise a *ValueError* exception.
+
+We strongly suggest the use of helper functions to implementdirectedDFS.
+
+Test your code by uncommenting the code at the bottom of *ps11.py*.
+
+    def directedDFS(digraph, start, end, maxTotalDist, maxDistOutdoors):
+        """
+        Finds the shortest path from start to end using directed depth-first
+        search approach. The total distance traveled on the path must not
+        exceed maxTotalDist, and the distance spent outdoor on this path
+        must not exceed maxDisOutdoors.
+        
+        Parameters:
+        digraph: instance of class Digraph or its subclass
+        start, end: start & end building numbers (strings)
+        maxTotalDist : maximum total distance on a path (integer)
+        maxDistOutdoors: maximum distance spent outdoors on a path (integer)
+        
+        Assumes:
+        start and end are numbers for existing buildings in graph
+        
+        Returns:
+        The shortest-path from start to end, represented by
+        a list of building numbers (in strings), [n_1, n_2, ..., n_k],
+        where there exists an edge from n_i to n_(i+1) in digraph,
+        for all 1 <= i < k.
+        
+        If there exists no path that satisfies maxTotalDist and
+        maxDistOutdoors constraints, then raises a ValueError.
+        """
+        # TO DO
+
+## Hand-In Procedure
+
+1. Submit the files **graph.py** and **ps11.py**. The *ps11.py* file should include complete and tested
+implementations of *load_map*, *bruteForceSearch*, *directedDFS*.
+2. After you are done with the problem set, do sanity checks. Run the code and make sure it can be
+run without errors. You should never submit code that immediately generates an error when run!
+3. At the start of your file, in a comment, write down the number of hours (roughly) you spent on
+the problems, and the names of the people you collaborated with. For example:
+
+        # Problem Set 11
+        # Name: Jane Lee
+        # Collaborators: John Doe
+        # Time: 3:30
+        #
+        ... your code goes here ...
+
