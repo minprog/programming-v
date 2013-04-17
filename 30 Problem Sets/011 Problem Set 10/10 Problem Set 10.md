@@ -77,8 +77,8 @@ In order to do this, you must do the following:
     should be 20% of all the points.
     2. Using kmeans(...), find the total error of the training set, where the total error is
     the following equation:∑ (distance of point to the centroid of its encapsulating
-    cluster)**2 where the sum is over all points in the training set. Hint: use the
-    **Point.distance(...)** method.
+    cluster)\*\*2 where the sum is over all points in the training set. Hint: use the
+    *Point.distance(...)* method.
     3. Given the holdout set, find the error by calculating the squared distance of each
     point in the holdout set to its nearest cluster.
 2. Once you have these error values:
