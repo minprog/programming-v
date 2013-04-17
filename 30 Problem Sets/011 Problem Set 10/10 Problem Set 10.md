@@ -89,14 +89,14 @@ In order to do this, you must do the following:
     3. (Hint: It will be much faster if you save all of the error values first and then do
     your graphing afterwards rather than recomputing the clusters each time.)
 
-        def graphRemovedErr(points, kvals = [25,50,75,100,125,150], cutoff = 0.1):
-            """
-            Should produce graphs of the error in training and holdout
-            point sets for ratio of the error of the points
-            kvals: int list
-            cutoff: float
-            """
-            # Your Code Here
+            def graphRemovedErr(points, kvals = [25,50,75,100,125,150], cutoff = 0.1):
+                """
+                Should produce graphs of the error in training and holdout
+                point sets for ratio of the error of the points
+                kvals: int list
+                cutoff: float
+                """
+                # Your Code Here
 
 Once you have things working, find the line that says
 
