@@ -104,7 +104,7 @@ Once you have things working, find the line that says
 
 and comment it out. This line has been making the randomization consistant, which is nice for
 debugging but doesn’t enable us to produce truly randomized results. Next, graph the full
-dataset, save it as *ps10_graph1.png* and add a short description of the results to *ps10_ans.txt*. (1.1) 
+dataset, save it as *ps10_graph1.png* and add a short description of the results (1.1) to *ps10_ans.txt*.
 
 You will likely observe that the two sets (training and holdout) change error in the same
 direction, but at different rates. Why do you think that is? (1.2)
@@ -169,14 +169,14 @@ better predictions.
 
 1. Find a weights vector (while keeping the Poverty weight set to 0) that produces a graph
 with significantly lower error than Problem 3. Use weights of either 0 or 1. Save this graph as
-*ps10_graph3.png* and be sure to include the weight vector you found. (4.1.1) Also include a
-sentence or two as to why your believe your weight vector produces this result in *ps10_ans.txt*.
-(4.1.2)
+*ps10_graph3.png* and be sure to include the weight vector you found (4.1.1) . Also include a
+sentence or two as to why your believe your weight vector produces this result (4.1.2) in
+*ps10_ans.txt*.
 2. Find a weights vector (while keeping the Poverty weight set to 0) that produces a graph
 with lower error than the above part. This time you should use values between 0 and 1.
-Save this graph as *ps10_graph4.png* and be sure to include the weight vector you found. (4.2.1)
+Save this graph as *ps10_graph4.png* and be sure to include the weight vector you found (4.2.1) .
 Also provide a sentence or two as to why your believe your weight vector produces this
-result in *ps10_ans.txt*. (4.2.2)
+result (4.2.2) in *ps10_ans.txt*.
 
 ## Hand-In Procedure
 
