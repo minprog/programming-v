@@ -1,5 +1,5 @@
 
-# Clustering: UNDER CONSTRUCTION
+# Clustering
 
 ### Introduction
 
@@ -20,7 +20,7 @@ Download the zip [here], containing:
 
 [here]: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ps10.zip
 
-**TODO: writeup? and submit.yml**
+You should edit *ps10.py*, create 4 graphs; *ps10_graph\{1-4\}.png* and add all your answers to *ps10_ans.txt*.
 
 ### Background Overview
 
@@ -32,7 +32,7 @@ clustering to analyze this information.
 and some functions will take a long time to run. You should test out each element of the code
 you are asked to write and/or understand. First, test your code on a sample data set and see if you
 get the expected results. Once you are comfortable with the outcome, you should produce the
-graphs for your writeup using the full data set. **Running this code may take a while!**
+graphs for your using the full data set. **Running this code may take a while!**
 
 To help you, we’ve setup the starter code to load two global sets, “points”, which contains all the
 data in *counties.txt*, and “testPoints”, which has only a tenth of the full data (this should be small
@@ -89,14 +89,14 @@ In order to do this, you must do the following:
     3. (Hint: It will be much faster if you save all of the error values first and then do
     your graphing afterwards rather than recomputing the clusters each time.)
 
-    def graphRemovedErr(points, kvals = [25,50,75,100,125,150], cutoff = 0.1):
-        """
-        Should produce graphs of the error in training and holdout
-        point sets for ratio of the error of the points
-        kvals: int list
-        cutoff: float
-        """
-        # Your Code Here
+        def graphRemovedErr(points, kvals = [25,50,75,100,125,150], cutoff = 0.1):
+            """
+            Should produce graphs of the error in training and holdout
+            point sets for ratio of the error of the points
+            kvals: int list
+            cutoff: float
+            """
+            # Your Code Here
 
 Once you have things working, find the line that says
 
@@ -104,12 +104,10 @@ Once you have things working, find the line that says
 
 and comment it out. This line has been making the randomization consistant, which is nice for
 debugging but doesn’t enable us to produce truly randomized results. Next, graph the full
-dataset, and include in your writeup (**ps10writeup.pdf**) your graph, along with a short sentence
-describing what the results mean. Note any trends or surprising features of the graph. (This need
-not be a long response).
+dataset, save it as *ps10_graph1.png* and add a short description of the results to *ps10_ans.txt*. (1.1) 
 
 You will likely observe that the two sets (training and holdout) change error in the same
-direction, but at different rates. Why do you think that is?
+direction, but at different rates. Why do you think that is? (1.2)
 
 ## Problem #2: k-means and you
 
@@ -117,11 +115,11 @@ In this problem, you are going to look at the specific cluster that your home co
 a county of your choosing if you are an international student.)
 
 Run k-means three times with k = 50. For each run, note what cluster your county appears in,
-and answer the following questions in **ps10writeup.pdf**:
+and answer the following questions in *ps10_ans.txt*:
 
-1. Does your county cluster with the same counties each time? If not, why not?
-2. Is your county in an appropriate cluster (i.e. a cluster with similar other counties)? Why
-or why not?
+* Does your county cluster with the same counties each time? If not, why not? (2.1)
+* Is your county in an appropriate cluster (i.e. a cluster with similar other counties)? Why
+or why not? (2.2)
 
 ## Problem 3: Graphing Prediction Error
 
@@ -148,16 +146,17 @@ of all the data and is randomly chosen.
 poverty of c. Graph the squared difference of p‘s poverty subtracted from c‘s average
 poverty as k changes. **Use the actual poverty value, not the normalized poverty value.**
     
-    def graphPredictionErr(points, dimension, kvals = [25, 50, 75, 100, 125, 150], cutoff = 0.1):
-        """
-        Given input points and a dimension to predict, should cluster on
-        the appropriate values of k and graph the error in the resulting
-        predictions, as described in Problem 3.
-        """
-        # Your Code Here
+        def graphPredictionErr(points, dimension, kvals = [25, 50, 75, 100, 125, 150], cutoff = 0.1):
+            """
+            Given input points and a dimension to predict, should cluster on
+            the appropriate values of k and graph the error in the resulting
+            predictions, as described in Problem 3.
+            """
+            # Your Code Here
 
-Include the graph in **ps10writeup.pdf**, along with a short analysis (no more than 1 paragraph)
-that explains why the error is high or low and why it varies depending on the value of k.
+Save the graph as *ps10_graph2.png* and add a short analysis (no more than 1 paragraph)
+that explains why the error is high or low (3.1) and why it varies depending on the value of k (3.2)
+to *ps10_ans.txt*
 
 ## Problem #4: Graphing Prediction Error (AGAIN!)
 
@@ -169,28 +168,29 @@ leave the Poverty weight 0, but try changing some of the other weights to see if
 better predictions.
 
 1. Find a weights vector (while keeping the Poverty weight set to 0) that produces a graph
-with significantly lower error than Problem 3. Use weights of either 0 or 1. Put this graph
-in **ps10writeup.pdf** and be sure to include the weight vector you found. Also include a
-sentence or two as to why your believe your weight vector produces this result.
+with significantly lower error than Problem 3. Use weights of either 0 or 1. Save this graph as
+*ps10_graph3.png* and be sure to include the weight vector you found. (4.1.1) Also include a
+sentence or two as to why your believe your weight vector produces this result in *ps10_ans.txt*.
+(4.1.2)
 2. Find a weights vector (while keeping the Poverty weight set to 0) that produces a graph
 with lower error than the above part. This time you should use values between 0 and 1.
-Put this graph in **ps10writeup.pdf** and be sure to include the weight vector you found.
+Save this graph as *ps10_graph4.png* and be sure to include the weight vector you found. (4.2.1)
 Also provide a sentence or two as to why your believe your weight vector produces this
-result.
+result in *ps10_ans.txt*. (4.2.2)
 
 ## Hand-In Procedure
 
-1. Save your code in two files, named ps10.py and ps10writeup.pdf.
+1. Save your code in two files, named **ps10.py**, **ps10_graph\{1-4\}.png** and **ps10_ans.txt**.
 2. Run your file to make sure it has no syntax errors or typos! Make sure the code you
-submit can generate all the graphs we’ve asked you to make
+submit can generate all the graphs we’ve asked you to make.
 3. At the start of your file, in a comment, write down the number of hours (roughly) you
 spent on the problems, and the names of the people you collaborated with. For example:
 
-    # Problem Set 10
-    # Name: Jane Lee
-    # Collaborators (Worked with): John Doe
-    # Collaborators (Exact solution): Ben Bitdiddle
-    # Time: 3:30
-    #
-    ... your code goes here ...
+        # Problem Set 10
+        # Name: Jane Lee
+        # Collaborators (Worked with): John Doe
+        # Collaborators (Exact solution): Ben Bitdiddle
+        # Time: 3:30
+        #
+        ... your code goes here ...
 

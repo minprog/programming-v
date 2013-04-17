@@ -1,4 +1,8 @@
 name: ps10
 required:
   - ps10.py
-  - ps10writeup.pdf
+  - ps10_graph1.png
+  - ps10_graph2.png
+  - ps10_graph3.png
+  - ps10_graph4.png
+  - ps10_ans.txt
