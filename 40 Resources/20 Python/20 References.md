@@ -20,10 +20,8 @@ Other optional textbooks:
 
 ## References
 - [Python 2.x Reserved Words](http://docs.python.org/2/reference/lexical_analysis.html#keywords)
-- [Python 2.7.3 Documentation](http://docs.python.org/release/2.7.3/)
-- [Python 2.5.4 Documentation](http://docs.python.org/release/2.5.4)
-- [Python 2.5.4 Tutorial](http://www.python.org/doc/2.5.4/tut/tut.html)
-- [Python 2.5 Quick Reference Card by Michael Goerz](http://michaelgoerz.net/refcards/#python25)
+- [Python 2.7.4 Documentation](http://docs.python.org/2.7/library/index.html)
+- [Python 2.7.4 Tutorial](http://docs.python.org/2.7/tutorial/index.html)
 - Guido van Rossum, the creator of Python, has written a [Python Style Guide](http://www.python.org/dev/peps/pep-0008/) that contains layout and naming conventions for the Python language. These conventions will help you write code that is easily readable by others.
 - The [Python Cheat Sheet](http://www.addedbytes.com/cheat-sheets/python-cheat-sheet/) is a handy one page guide covering commonly used Python methods.
 
