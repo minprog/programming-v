@@ -13,7 +13,7 @@ In this course, we will use Python. Python is a relatively recent addition to th
 
 ## Setting Up Python
 
-You can install the software on your personal computer if your operating system is GNU/Linux, Windows (7/Vista/XP), or MacOS X. In all cases, you will need Python version 2.5.4 (any 2.5.x, 2.6.x or 2.7.x version of Python will work, but 3.0 versions are NOT compatible). See the [releases page on python.org](http://www.python.org/download/releases/) for a list of the most common versions of python.
+You can install the software on your personal computer if your operating system is GNU/Linux, Windows (7/Vista/XP), or MacOS X. In all cases, you will need Python version 2.7.x (any 2.5.x or 2.6.x version will also work, but 3.0 versions are NOT compatible). See the [releases page on python.org](http://www.python.org/download/releases/) for a list of the most common versions of python.
 
 **Warning:** On the Python homepage, the latest version available for download is actually 3.0. Do not install this! This version is not backwards compatible with the code that you'll be writing in this course (for example, you have to type `print("test")` instead of `print "test"`). Instead, be sure to download a version listed above.
 
