@@ -2,7 +2,7 @@
 
 # Syllabus.
 
-*Edition: February 2013*
+*Edition: September 2013*
 
 This subject is aimed at students with little or no programming experience. It
 aims to provide students with an understanding of the role computation can
@@ -160,5 +160,4 @@ the following texts may be useful.
 
 You probably know the regulations about plagiarism and fraud, but to be on the safe side, we link to them here in [English] and [Dutch].
 
-[Dutch]: http://studentenserviceplein.uva.nl/serviceplein/content/fraude-plagiaat-en-bronvermelding/fraude-en-plagiaatregeling.html
-[English]: http://studentenserviceplein.uva.nl/en/service-point/content/plagiarism-and-fraud/plagiarism-and-fraud.html
+[Dutch]: http://www.uva.nl/plagiaat

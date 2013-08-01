@@ -1,4 +1,4 @@
-# Schedule 8 weeks
+# 16-week schedule (unfinished)
 
 ## Week 1
 
