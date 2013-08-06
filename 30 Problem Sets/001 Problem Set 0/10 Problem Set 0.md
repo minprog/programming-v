@@ -101,4 +101,4 @@ section of the Python Wikibook.
        
        ... your code goes here ...
    
-3. **Submit** (see tab at the top)
+3. **Submit** (see tab at the top of this page)

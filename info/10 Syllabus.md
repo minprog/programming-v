@@ -148,8 +148,8 @@ unnoticed.
 ## Books
 
 There is no course textbook; much of the reading will come from online
-sources. However, if one is seeking an additional optional reference, one of
-the following texts may be useful.
+sources. However, if one seeks additional optional reference, one of
+the following resources may be useful.
 
 - Zelle, John M. Python Programming: An Introduction to Computer Science. 1st ed. Franklin Beedle & Associates, 2003. ISBN: 9781887902991. (Be sure to get the 1st edition, not the 2nd.)
 - Budd, Timothy. Exploring Python. McGraw-Hill Science, 2009. ISBN: 9780073523378.
