@@ -35,9 +35,9 @@ Let's start with the strategic goals of this course:
 - Position students so that they can compete for jobs by providing competence
   and confidence in computational problem solving.
 
-- Prepare college freshmen and sophomores who have no prior programming
-  experience or knowledge of computer science for an easier entry into
-  computer science or electrical engineering majors.
+- Prepare college students who have no prior programming experience or
+  knowledge of computer science for an easier entry into computer science or
+  electrical engineering majors.
 
 - Prepare students from other majors to make profitable use of computational
   methods in their chosen field.
@@ -81,7 +81,8 @@ solving. Now, by definition, none of you are under-qualified for this course.
 
 Since computer programming involves computational modes of thinking, it will
 help to have some mathematical and logical aptitude. You should be confident
-with your math skills up to pre-calculus.
+with your math skills up to pre-calculus (e.g. differentation, logarithms), but
+nothing too fancy.
 
 # Expectations
 
@@ -140,14 +141,15 @@ unnoticed.
 # Books
 
 There is no course textbook; much of the reading will come from online sources.
-However, if one seeks additional optional reference, the following resource may
-be useful.
+However, if one seeks additional reference, the following resource may be
+useful.
 
 > Allen Downey, [Think Python](http://www.greenteapress.com/thinkpython/), O'Reilly 2012.
 
 # Academic Honesty
 
 You probably know the regulations about plagiarism and fraud, but to be on the
-safe side, we link to them here in [Dutch].
+safe side, we link to them here in [Dutch] and [English].
 
 [Dutch]: http://www.uva.nl/plagiaat
+[English]: http://student.uva.nl/en/az/a-z/a-z/content/folder/plagiarism-and-fraud/plagiarism-and-fraud.html
