@@ -32,7 +32,7 @@ recitations, and problem sets) through Efficiency and Order of Growth.
 * Read [Problem set 0](http://py.mprog.nl/problem-sets/problem-set-0)
   thoroughly and start practicing with the IDLE environment.
 
-* Make sure you finish Problem Set 0 before turning to
+* Make sure you finish and submit Problem Set 0 before turning to
   [Problem set 1](http://py.mprog.nl/problem-sets/problem-set-1). Somewhere in
   between, watch your [second lecture](http://py.mprog.nl/lectures/lecture-1).
 
