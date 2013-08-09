@@ -1,7 +1,5 @@
 ![Roomba photograph courtesy of Stephanie Booth on Flickr; virus image courtesy of the CDC; Boggle photograph courtesy of Angelina on Flickr; MIT campus map image courtesy of RahulG on Flickr.](mit600.jpg){:.inline }
 
-# Syllabus.
-
 *Edition: September 2013*
 
 This subject is aimed at students with little or no programming experience. It
@@ -11,12 +9,12 @@ major, to feel justifiably confident of their ability to write small programs
 that allow them to accomplish useful goals. The class will use the Python
 programming language.
 
-## Staff.
+# Staff
 
 To contact the course's staff about almost anything, feel free to e-mail
 <help@mprog.nl>. We'll usually respond within 24 hours.
 
-### Course coordinator.
+## Instructor
 
 For personal matters and special arrangements.
 
@@ -25,16 +23,7 @@ Martijn Stegeman
 room: C3.204  
 phone: 525 5235
 
-### Course maintainer.
-
-For feedback on this course web site and the course contents.
-
-Tim Doolan  
-<tim.doolan@gmail.com>
-(subject tag: [MP:P])  
-assisting: Tuesday 13-17 & Thursday 13-17
-
-## About this course.
+# About this course
 
 Let's start with the strategic goals of this course:
 
@@ -53,7 +42,8 @@ Let's start with the strategic goals of this course:
 - Prepare students from other majors to make profitable use of computational
   methods in their chosen field.
 
-Programming in Python can be summarized with these six major topics or objectives:
+Programming in Python can be summarized with these six major topics or
+objectives:
 
 - Learning a language for expressing computations: Python
 
@@ -83,7 +73,7 @@ courses, having an ability to memorize facts will be of little help in
 Programming in Python. This course is about learning to solve problems, not
 learning facts. (This, by the way, is exactly why all exams are open book.)
 
-## Prerequisites
+# Prerequisites
 
 This course is aimed at students with little or no prior programming
 experience but a desire to understand computational approaches to problem
@@ -93,37 +83,39 @@ Since computer programming involves computational modes of thinking, it will
 help to have some mathematical and logical aptitude. You should be confident
 with your math skills up to pre-calculus.
 
-## Expectations
+# Expectations
 
-You are expected to watch all lectures and sections (but not in the lab),
-submit twelve problem sets, and take two quizzes.
+You are expected to watch all lectures and sections, submit twelve problem
+sets, and take two quizzes.
+
+# Lab work
 
 You are required to work in the lab for some amount of time during the week,
 as agreed upon with the course coordinator. During these hours, the teaching
 assistants are available to answer any questions you may have about the
 lectures, quizzes or problem sets.
 
-## Grades
+# Grades
 
 You will receive a final grade for the course if:
 
-* you've attended all lab sessions during the course;
+* you've attended all lab sessions as agreed upon;
 * you've submitted every problem set working and on time;
 * you've passed the quizzes.
 
-Should you not have succeeded in doing one of those, we cannot give you a
+Should you not have succeeded in doing one of those, we will not give you a
 final grade. Still, we are most certain that every student should be able to
 pass the course!
 
 The grade of **Part 1** will be determined using the following weights:
 
 * Problem Sets 0--6: 100%
-* Quiz 1: 0% (but needs to be passed)
+* Quiz 1 needs to be passed
 
 The grade of **Part 2** will be determined using the following weights:
 
 * Problem Sets 7--11: 100%
-* Quiz 2: 0% (but need to be passed)
+* Quiz 2 needs to be passed
 
 Problem sets and the final project will be evaluated along axes of:
 
@@ -145,19 +137,17 @@ student's final grade is individually determined at term’s end after input
 from the assistants. Remarkable effort and upward trending do not go
 unnoticed.
 
-## Books
+# Books
 
-There is no course textbook; much of the reading will come from online
-sources. However, if one seeks additional optional reference, one of
-the following resources may be useful.
+There is no course textbook; much of the reading will come from online sources.
+However, if one seeks additional optional reference, the following resource may
+be useful.
 
-- Zelle, John M. Python Programming: An Introduction to Computer Science. 1st ed. Franklin Beedle & Associates, 2003. ISBN: 9781887902991. (Be sure to get the 1st edition, not the 2nd.)
-- Budd, Timothy. Exploring Python. McGraw-Hill Science, 2009. ISBN: 9780073523378.
-- Shaw, Zed A. [Learn Python the Hard Way](http://learnpythonthehardway.org/book/). (Available to read on the web for free. Also available as [PDF download, ePub download, or printed book](http://learnpythonthehardway.org/), mailed to you, each at a low cost.)
-- Swaroop, CH. [A Byte of Python](http://www.ibiblio.org/swaroopch/byteofpython/read/).
+> Allen Downey, [Think Python](http://www.greenteapress.com/thinkpython/), O'Reilly 2012.
 
-## Academic Honesty
+# Academic Honesty
 
-You probably know the regulations about plagiarism and fraud, but to be on the safe side, we link to them here in [English] and [Dutch].
+You probably know the regulations about plagiarism and fraud, but to be on the
+safe side, we link to them here in [Dutch].
 
 [Dutch]: http://www.uva.nl/plagiaat
