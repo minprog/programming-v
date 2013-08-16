@@ -1,5 +1,3 @@
-# Getting Started
-
 We will start our journey by discussing the difference between imperative
 knowledge and definitional knowledge, between fixed program and stored program
 computers, and finally the definitions of syntax, static semantics, and
@@ -28,12 +26,12 @@ and problem sets) through Efficiency and Order of Growth.
 * Start at the [first lecture](/lectures/lecture-1) to get an overview of what
   to expect in the course.
 
-* Read [Problem set 0](http://py.mprog.nl/problem-sets/problem-set-0)
+* Read [Problem set 0](/problem-sets/problem-set-0)
   thoroughly and start practicing with the IDLE environment.
 
 * Make sure you finish and submit Problem Set 0 before turning to
-  [Problem set 1](http://py.mprog.nl/problem-sets/problem-set-1). Somewhere in
-  between, watch your [second lecture](http://py.mprog.nl/lectures/lecture-1).
+  [Problem set 1](/problem-sets/problem-set-1). Somewhere in
+  between, watch your [second lecture](/lectures/lecture-1).
 
 * Start posing your assistant some difficult questions! They can also help you
   with practical matters such as installing Python on your own computer.
