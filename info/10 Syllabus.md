@@ -134,7 +134,7 @@ not at a disadvantage vis-à-vis those more comfortable. Each student's final
 grade is individually determined at term's end after input from the teaching
 fellows. Remarkable effort and upward trending do not go unnoticed.
 
-# Books
+## Book
 
 There is no course textbook; much of the reading will come from online sources.
 However, we do have a number of books available for you to use during office
