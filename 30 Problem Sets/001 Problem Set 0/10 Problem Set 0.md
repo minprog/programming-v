@@ -88,7 +88,6 @@ section of the Python Wikibook.
    
    For example:
    
-       {: .language.python }
        # Problem Set 0
        # Name: Jane Lee
        # Collaborators: John Doe
