@@ -9,29 +9,10 @@
 
 ## About
 
-Topics covered: Dynamic programming, optimal path, overlapping subproblems, weighted edges, specifications, restrictions, efficiency, pseudo-polynomials.
-
-
+Topics covered: Dynamic programming, optimal path, overlapping subproblems,
+weighted edges, specifications, restrictions, efficiency, pseudo-polynomials.
 
 ## Resources
 
 - [Lecture code handout](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-22-using-graphs-to-model-problems-part-2/MIT6_00SCS11_lec22.pdf)
-
 - [Lecture code](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-22-using-graphs-to-model-problems-part-2/lec22.py)
-
-
-
-<script>
-function hide(id)
-{
-    document.getElementById(id).style.display = 'none';
-}
-
-function show(id)
-{
-    document.getElementById(id).style.display = 'block';
-}
-</script>
-
-
-

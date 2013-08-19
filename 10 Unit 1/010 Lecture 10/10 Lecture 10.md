@@ -9,29 +9,10 @@
 
 ## About
 
-Topics covered: Hashing, bucket, collision, linear rehash, exceptions, classes, modules, built-in classes.
-
-
+Topics covered: Hashing, bucket, collision, linear rehash, exceptions, classes,
+modules, built-in classes.
 
 ## Resources
 
 - [Lecture code handout](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-10-hashing-and-classes/MIT6_00SCS11_lec10.pdf)
-
 - [Lecture code](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-10-hashing-and-classes/lec10.py)
-
-
-
-<script>
-function hide(id)
-{
-    document.getElementById(id).style.display = 'none';
-}
-
-function show(id)
-{
-    document.getElementById(id).style.display = 'block';
-}
-</script>
-
-
-

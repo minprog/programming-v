@@ -11,31 +11,9 @@
 
 Topics covered: Arrays, curve fitting, numpy, pylab, least squares fit, prediction.
 
-
-
 ## Resources
 
 - [Lecture code handout](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-17-curve-fitting/MIT6_00SCS11_lec17.pdf)
-
 - [Lecture code](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-17-curve-fitting/lec17.py)
-
 - [Lecture slides](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-17-curve-fitting/MIT6_00SCS11_lec17_slides.pdf)
-
 - [Lecture data files](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-17-curve-fitting/lec17_data.zip)
-
-
-
-<script>
-function hide(id)
-{
-    document.getElementById(id).style.display = 'none';
-}
-
-function show(id)
-{
-    document.getElementById(id).style.display = 'block';
-}
-</script>
-
-
-

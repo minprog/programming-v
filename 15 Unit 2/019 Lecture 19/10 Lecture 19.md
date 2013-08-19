@@ -11,29 +11,8 @@
 
 Topics covered: Knapsack problem, local and global optima, supervised and unsupervised machine learning, training error, clustering, linkage, feature vectors.
 
-
-
 ## Resources
 
 - [Lecture code handout](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-19-more-optimization-and-clustering/MIT6_00SCS11_lec19.pdf)
-
 - [Lecture code](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-19-more-optimization-and-clustering/lec19.py)
-
 - [Lecture slides](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-19-more-optimization-and-clustering/MIT6_00SCS11_lec19_slides.pdf)
-
-
-
-<script>
-function hide(id)
-{
-    document.getElementById(id).style.display = 'none';
-}
-
-function show(id)
-{
-    document.getElementById(id).style.display = 'block';
-}
-</script>
-
-
-

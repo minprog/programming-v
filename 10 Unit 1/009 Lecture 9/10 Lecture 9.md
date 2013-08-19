@@ -11,27 +11,7 @@
 
 Topics covered: Memory, storage, indirection, sorting.
 
-
-
 ## Resources
 
 - [Lecture code handout](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-9-memory-and-search-methods/MIT6_00SCS11_lec09.pdf)
-
 - [Lecture code](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-9-memory-and-search-methods/lec09.py)
-
-
-
-<script>
-function hide(id)
-{
-    document.getElementById(id).style.display = 'none';
-}
-
-function show(id)
-{
-    document.getElementById(id).style.display = 'block';
-}
-</script>
-
-
-

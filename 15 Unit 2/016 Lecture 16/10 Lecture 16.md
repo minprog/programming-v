@@ -9,29 +9,9 @@
 
 ## About
 
-Topics covered: Gaussian distributions, analytical models, simulations, exponential growth, probability, distributions, Monty Hall problem.
-
-
+Topics covered: Gaussian distributions, analytical models, simulations,
+exponential growth, probability, distributions, Monty Hall problem.
 
 ## Resources
 
 - [Lecture code handout](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/MIT6_00SCS11_lec16.pdf)
-
-- [h](t)
-
-
-
-<script>
-function hide(id)
-{
-    document.getElementById(id).style.display = 'none';
-}
-
-function show(id)
-{
-    document.getElementById(id).style.display = 'block';
-}
-</script>
-
-
-

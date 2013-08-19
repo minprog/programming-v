@@ -11,25 +11,6 @@
 
 Topics covered: Careers in computer science, computational thinking, abstraction, automation.
 
-
-
 ## Resources
 
 - [Lecture slides](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-26-what-do-computer-scientists-do/MIT6_00SCS11_lec26_slides.pdf)
-
-
-
-<script>
-function hide(id)
-{
-    document.getElementById(id).style.display = 'none';
-}
-
-function show(id)
-{
-    document.getElementById(id).style.display = 'block';
-}
-</script>
-
-
-

@@ -9,29 +9,10 @@
 
 ## About
 
-Topics covered: Subclasses, inheritance, generator, analytic methods, simulation methods, simulations, models, random walk.
-
-
+Topics covered: Subclasses, inheritance, generator, analytic methods,
+simulation methods, simulations, models, random walk.
 
 ## Resources
 
 - [Lecture code handout](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-12-introduction-to-simulation-and-random-walks/MIT6_00SCS11_lec12.pdf)
-
 - [Lecture code](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-12-introduction-to-simulation-and-random-walks/lec12.py)
-
-
-
-<script>
-function hide(id)
-{
-    document.getElementById(id).style.display = 'none';
-}
-
-function show(id)
-{
-    document.getElementById(id).style.display = 'block';
-}
-</script>
-
-
-

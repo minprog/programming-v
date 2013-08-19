@@ -9,10 +9,9 @@
 
 ## About
 
-Topics covered: Termination, decrementing functions, exhaustive enumeration, brute force, while loop, for loop, approximation, specifications, bisection search.
-
-
-
+Topics covered: Termination, decrementing functions, exhaustive enumeration,
+brute force, while loop, for loop, approximation, specifications, bisection
+search.
 
 <script>
 function hide(id)
@@ -29,15 +28,14 @@ function show(id)
 
 ## Check Yourself
 
-What does it mean for a program to terminate?
-<a href="#" onclick="show('answer-1'); return false;">show</a>
+What does it mean for a program to terminate? <a href="#" onclick="show('answer-1'); return false;">show</a>
 
-<div id="answer-1" style="display: none;">Either the program will return a value, or throw an exception. A program that does not terminate runs indefinitely, typically because it's gotten stuck in a loop.</div>
+<div id="answer-1" style="display: none;">
+Either the program will return a value, or throw an exception. A program that does not terminate runs indefinitely, typically because it's gotten stuck in a loop.
+</div>
 
-What is a for loop?
-<a href="#" onclick="show('answer-2'); return false;">show</a>
+What is a for loop? <a href="#" onclick="show('answer-2'); return false;">show</a>
 
-<div id="answer-2" style="display: none;">A for loop takes some sort of iterable object (a list, tuple, or string) and performs its function once for each item in that object. Any function that depends on the input can have a different result at each step, since the input is the current item.</div>
-
-
-
+<div id="answer-2" style="display: none;">
+A for loop takes some sort of iterable object (a list, tuple, or string) and performs its function once for each item in that object. Any function that depends on the input can have a different result at each step, since the input is the current item.
+</div>
