@@ -107,7 +107,7 @@ pass the course!
 
 The grade of **Part 1** will be determined using the following weights:
 
-* Problem Sets 0--6: 100%
+* Problem Sets 0--5: 100%
 * Quiz 1 needs to be passed
 
 </div>
@@ -116,7 +116,7 @@ The grade of **Part 1** will be determined using the following weights:
 
 The grade of **Part 2** will be determined using the following weights:
 
-* Problem Sets 7--11: 100%
+* Problem Sets 6--11: 100%
 * Quiz 2 needs to be passed
 
 </div>
