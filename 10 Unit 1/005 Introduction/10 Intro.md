@@ -23,19 +23,17 @@ and problem sets) through Efficiency and Order of Growth.
 
 ## Now what?
 
-* Start at the [first lecture](/lectures/lecture-1) to get an overview of what
-  to expect in the course.
+* First, watch [Lecture 0](/lectures/lecture-0) to find out what Scratch is all
+  about. This is the programming environment you'll do your first Problem Set
+  in.
 
-* Read [Problem set 0](/problem-sets/problem-set-0)
-  thoroughly and start practicing with the IDLE environment.
+* Read [Problem set 0](/problem-sets/problem-set-0) thoroughly and install
+  Scratch.
 
 * Make sure you finish and submit Problem Set 0 before turning to
   [Problem set 1](/problem-sets/problem-set-1). Somewhere in
   between, watch your [second lecture](/lectures/lecture-1).
 
-* Start posing your assistant some difficult questions! They can also help you
-  with practical matters such as installing Python on your own computer.
-
-* Use the *Check Yourself* questions to verify that you have picked up the
-  right things from the lecture. Ask your assistants about anything you don't
-  understand! This is the best way to easily prepare for the quizzes.
+* Start asking some difficult questions! The lab assistants can also help you
+  with practical matters such as installing Scratch and Python on your own
+  computer.
