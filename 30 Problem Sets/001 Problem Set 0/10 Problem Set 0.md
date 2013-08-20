@@ -3,7 +3,8 @@
 ## Specifications
 
 You can choose to do the normal edition or the hacker edition of this problem
-set. If you've started doing the normal edition.
+set. If you've started doing the normal edition, and you finish quickly, have a
+go at the hacker edition!
 
 * [Download Scratch](http://scratch.mit.edu/scratch_1.4/)
 * [Download Normal edition (.PDF)](pset0.pdf)
