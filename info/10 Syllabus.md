@@ -11,17 +11,16 @@ programming language.
 
 ## Staff
 
-To contact the course's staff about almost anything, feel free to e-mail
-<help@mprog.nl>. We'll usually respond within 24 hours.
+The course's staff consists of your instructor and several student assistants.
+Due to the size of the course, we can't usually respond to email inquiries
+about your problem sets or organizational matters. You are encouraged to speak
+to a student assistant or the instructor at the lab.
 
 ### Instructor
 
-For personal matters and special arrangements.
-
 Martijn Stegeman  
 <stegeman@uva.nl>  
-room: C3.204  
-phone: 525 5235
+phone: (020) 525 5235
 
 ## Goals for this course
 
@@ -86,21 +85,20 @@ nothing too fancy.
 
 ## Expectations
 
-You are expected to watch all lectures and sections, submit twelve problem
-sets, and take two quizzes. You are also expected to attend a minimum amount of
-lab sessions in order to be able to asked questions.
+You are expected to watch all lectures and sections, submit eight problem sets,
+take two quizzes, and submit a final project. You are also expected to attend a
+minimum amount of lab sessions in order to get you moving quickly through the
+course.
 
 ## Grades
 
-You will receive a final grade for the course if:
+You will receive a number grade for the course if:
 
-* you've attended all lab sessions as agreed upon;
+* you've attended lab sessions as agreed upon;
 * you've submitted every problem set working and on time;
 * you've passed the quizzes.
 
-Should you not have succeeded in doing one of those, we will not give you a
-final grade. Still, we are most certain that every student should be able to
-pass the course!
+We are most certain that every student is able to pass the course!
 
 <div class="row">
 <div class="col-lg-6">
@@ -137,9 +135,9 @@ fellows. Remarkable effort and upward trending do not go unnoticed.
 ## Book
 
 There is no course textbook; much of the reading will come from online sources.
-However, we do have a number of books available for you to use during office
-hours. You are welcome to pick up one of these and read them as a preparation
-for or review of one of the lectures.
+However, we do have a number of books available for you to use in the lab. You
+are welcome to pick up one of these and read them as a preparation for or
+review of one of the lectures.
 
 If one seeks additional reference, the following resource may be useful:
 

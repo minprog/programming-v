@@ -22,8 +22,8 @@ course's instructor.
 You are welcome to discuss the course's material with others in order to better
 understand it. You may even discuss problem sets with classmates, but you may
 not share code. In other words, you may communicate with classmates in English,
-but you may not communicate in, say, C. If in doubt as to the appropriateness
-of some discussion, contact the course's instructor.
+but you may not communicate in, say, Python. If in doubt as to the
+appropriateness of some discussion, contact the course's instructor.
 
 ## Quoting sources
 
@@ -38,11 +38,9 @@ considered academic dishonesty.
 ## Regulations
 
 All forms of academic dishonesty are dealt with harshly. If the course refers
-some matter to the Administrative Board and the outcome for some student is
-Admonish, Probation, Requirement to Withdraw, or Recommendation to Dismiss, the
-course reserves the right to impose local sanctions on top of that outcome for
-that student that may include, but not be limited to, a failing grade for work
-submitted or for the course itself.
+some matter to the Examination Board, the course reserves the right to impose
+local sanctions on top of that outcome for that student that may include, but
+not be limited to, a failing grade for work submitted or for the course itself.
 
 In all cases we follow the directives regarding fraud and plagiarism of the
 University of Amsterdam and of the examination board of the Computer Science
