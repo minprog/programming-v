@@ -1,6 +1,5 @@
 # 16-week schedule
 
-<div class="row">
 <div class="col-lg-6">
 
 ## Week 1: Scratch!
@@ -110,5 +109,4 @@
 
 - Quiz 2
 
-</div>
 </div>

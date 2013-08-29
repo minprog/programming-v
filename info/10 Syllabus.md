@@ -100,7 +100,6 @@ You will receive a number grade for the course if:
 
 We are most certain that every student is able to pass the course!
 
-<div class="row">
 <div class="col-lg-6">
 
 The grade of **Part 1** will be determined using the following weights:
@@ -117,7 +116,6 @@ The grade of **Part 2** will be determined using the following weights:
 * Problem Sets 6--11: 100%
 * Quiz 2 needs to be passed
 
-</div>
 </div>
 
 Know that this course draws quite the spectrum of students, including "those
