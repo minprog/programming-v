@@ -1,5 +1,8 @@
 # 16-week schedule
 
+<div class="row">
+<div class="col-lg-6">
+
 ## Week 1: Scratch!
 
 - Lecture 0
@@ -50,6 +53,10 @@
 ## Week 8 ##
 
 - Quiz 1
+
+</div>
+
+<div class="col-lg-6">
 
 ## Week 9: Object-oriented programming
 
@@ -102,3 +109,6 @@
 ## Week 16 ##
 
 - Quiz 2
+
+</div>
+</div>

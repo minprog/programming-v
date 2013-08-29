@@ -1,4 +1,7 @@
-# 8-week schedule
+# 12-week schedule
+
+<div class="row">
+<div class="col-lg-6">
 
 ## Week 1
 
@@ -63,6 +66,10 @@ Quiz
 
 - Quiz 1
 
+</div>
+
+<div class="col-lg-6">
+
 ## Week 7
 
 Probability and sampling
@@ -119,3 +126,6 @@ Dynamic programming
 Quiz
 
 - Quiz 2
+
+</div>
+</div>
