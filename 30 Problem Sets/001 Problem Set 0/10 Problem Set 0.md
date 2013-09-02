@@ -6,7 +6,8 @@ You can choose to do the normal edition or the hacker edition of this problem
 set. If you've started doing the normal edition, and you finish quickly, have a
 go at the hacker edition!
 
-* [Download Scratch](http://scratch.mit.edu/scratch_1.4/)
+* [Download Scratch for your laptopt](http://scratch.mit.edu/scratch_1.4/)
+* [Download Scratch for the faculty PC's](http://www.softpedia.com/dyn-postdownload.php?p=105430&t=0&i=1)
 * [Download Normal edition (.PDF)](pset0.pdf)
 * [Download Hacker edition (.PDF)](hacker0.pdf)
 
