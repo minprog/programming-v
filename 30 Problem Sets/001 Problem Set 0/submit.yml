@@ -1,3 +1,2 @@
-name: ps00
-required:
-  - ps0.py
+name: 0
+form: true
