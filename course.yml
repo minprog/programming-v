@@ -1,6 +1,7 @@
 course:
   title: Introduction to Computer Science
   short: MIT600
+  submit: MIT2013
 
 acknowledgements:
     - Based on 6.00SC Introduction to Computer Science and Programming,Spring 2011 by John Guttag. (Massachusetts Institute of Technology: MIT OpenCourseWare), http://ocw.mit.edu (Accessed 21 Jan, 2013).
