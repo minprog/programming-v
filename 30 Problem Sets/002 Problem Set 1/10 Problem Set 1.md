@@ -16,12 +16,12 @@ Say you’ve made a € 5000 purchase on a credit card with 18% annual
 interest rate and 2% minimum monthly payment rate. After a year, how
 much is the remaining balance? Use the following equations.
 
-* **Minimum monthly payment** = Minimum monthly payment rate x Balance
+* $$"minimum monthly payment" = "minimum monthly payment rate" * "balance"$$  
     (Minimum monthly payment gets split into interest paid and
     principal paid)
-* **Interest Paid** = Annual interest rate / 12 months x Balance
-* **Principal paid** = Minimum monthly payment – Interest paid
-* **Remaining balance** = Balance – Principal paid
+* $$"interest paid" = "annual interest rate" / "12 months" * "balance"$$
+* $$"principal paid" = "minimum monthly payment" - "interest paid"$$
+* $$"remaining balance" = "balance" - "principal paid"$$
 
 For month 1, we can compute the minimum monthly payment by taking 2% of the balance:
 
@@ -241,9 +241,8 @@ be a multiple of €10 and is the same for all months. Notice that it is
 possible for the balance to become negative using this payment
 scheme. In short:
 
-* **Monthly interest rate** = Annual interest rate / 12.0
-* **Updated balance each month** = Previous balance x (1 + Monthly
-    interest rate) – Minimum monthly payment
+* $$"monthly interest rate" = "annual interest rate" / 12$$
+* $$"updated balance each month" = "previous balance" * (1 + "monthly interest rate") - "minimum monthly payment"$$
 
 ### Test Case 1
 
@@ -304,8 +303,8 @@ entire year.
 
 In short:
 
-* $$"monthly payment lower bound" = "balance" / 12.0$$
-* $$"monthly payment upper bound" = ("balance" * (1 + "annual interest rate" / 12.0) ^ 12.0) / 12.0$$
+* $$"monthly payment lower bound" = "balance" / 12$$
+* $$"monthly payment upper bound" = ("balance" * (1 + "annual interest rate" / 12) ^ 12) / 12$$
 
 ### Problem 3
 
