@@ -61,8 +61,8 @@ value as a `float`.
 ## Derivatives
 
 As stated before, we will need to find $$f'(xn)$$, where $$f'(x)$$ is the
-derivative of $$f(x)$$. Recall that the derivative of a polynomial $$f(x) = ax^b$$
-is $$f'(x) = abx^b - 1$$, unless $$b=0$$, in which case $$f'(x) = 0$$.
+derivative of $$f(x)$$. Recall that the derivative of a polynomial $$f(x) = a*x^b$$
+is $$f'(x) = ab*x^(b-1)$$, unless $$b=0$$, in which case $$f'(x) = 0$$.
 To compute the derivative of a polynomial function with many
 terms, you just do the same thing to every term individually. For
 example, if $$f(x) = x4 + 3x^3 + 17.5x^2 - 13.39$$, then
