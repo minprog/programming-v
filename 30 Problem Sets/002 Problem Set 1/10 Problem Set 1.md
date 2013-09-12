@@ -304,9 +304,8 @@ entire year.
 
 In short:
 
-* **Monthly payment lower bound** = Balance / 12.0
-* **Monthly payment upper bound** = (Balance * (1 + (Annual interest
-    rate / 12.0)) ** 12.0) / 12.0
+* $$"monthly payment lower bound" = "balance" / 12.0$$
+* $$"monthly payment upper bound" = ("balance" * (1 + ("annual interest rate" / 12.0)) ^ 12.0) / 12.0
 
 ### Problem 3
 
