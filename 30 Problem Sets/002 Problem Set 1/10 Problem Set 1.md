@@ -242,7 +242,9 @@ possible for the balance to become negative using this payment
 scheme. In short:
 
 * $$"monthly interest rate" = "annual interest rate" / 12$$
-* $$"updated balance each month" = "previous balance" * (1 + "monthly interest rate") - "minimum monthly payment"$$
+
+* $$"updated balance each month" =$$  
+  $$"previous balance" * (1 + "monthly interest rate") - "minimum monthly payment"$$
 
 ### Test Case 1
 
