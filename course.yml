@@ -7,3 +7,25 @@ acknowledgements:
     - Based on 6.00SC Introduction to Computer Science and Programming,Spring 2011 by John Guttag. (Massachusetts Institute of Technology: MIT OpenCourseWare), http://ocw.mit.edu (Accessed 21 Jan, 2013).
 
 license: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This course</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+
+tracks:
+    prog1:
+        name: Programmeren 1
+        requirements:
+            - "0"
+            - ps01
+            - ps02
+            - ps03
+            - ps04
+            - ps05
+            - ps06
+            - q1
+    prog2:
+        name: Programmeren 2
+        requirements:
+            - ps07
+            - ps08
+            - ps09
+            - ps10
+            - ps11
+            - q2
