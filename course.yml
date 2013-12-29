@@ -19,6 +19,8 @@ tracks:
             - ps04
             - ps05
             - q1
+            - zz1
+        final: zz1
     prog2:
         name: Programmeren 2
         requirements:
@@ -29,3 +31,5 @@ tracks:
             - ps10
             - ps11
             - q2
+            - zz1
+        final: zz2
