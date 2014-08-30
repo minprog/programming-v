@@ -7,23 +7,20 @@
 - Lecture 6
 - Recitation 4 if you need a bit more
 - Lecture 7
-
-## Week 2: Debugging, efficiency and classes
-
 - Lecture 8
 - Recitation A if you need a bit more
 - Lecture 9
 - Lecture 10
 - Due: Problem Set 4
 
-## Week 3: Object-oriented programming
+## Week 2: Debugging, efficiency and classes
 
 - Lecture 11
 - Recitation 5 if you need a bit more
 - Lecture 12
 - Due: Problem Set 5
 
-## Week 4: Object-oriented programming
+## Week 3: Object-oriented programming
 
 - Lecture 10
 - Lecture 11
@@ -31,7 +28,7 @@
 - Lecture 12
 - Due: Problem Set 6
 
-## Week 5: Probability and sampling
+## Week 4: Object-oriented programming
 
 - Lecture 13
 - Lecture 14
@@ -39,6 +36,8 @@
 - Recitation 6 if you need a bit more
 - Lecture 16
 - Due: Problem Set 7
+
+## Week 5: Probability and sampling
 
 - Lecture 17
 - Recitation 7 if you need a bit more
