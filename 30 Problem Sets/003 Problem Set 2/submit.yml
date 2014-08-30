@@ -1,4 +1,0 @@
-name: ps02
-required:
-  - ps2_newton.py
-  - ps2_hangman.py
