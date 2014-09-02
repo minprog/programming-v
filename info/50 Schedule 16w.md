@@ -11,10 +11,10 @@
 
 ## Week 2: Debugging, efficiency and classes
 
-- Lecture 11
-- Recitation 5 if you need a bit more
-- Lecture 12
-- Due: Problem Set 5
+- Lecture 11: [OOP and inheritance](/lectures/lecture-11)
+- Recitation 5: [Object-oriented programming](/recitations/recitation-5)
+- Lecture 12: [Introduction to Simulation and Random Walks](/lectures/lecture-12)
+- Due: [Problem Set 5](/problem-sets/problem-set-5)
 
 ## Week 3: Object-oriented programming
 
