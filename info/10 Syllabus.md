@@ -1,26 +1,29 @@
 ![Roomba photograph courtesy of Stephanie Booth on Flickr; virus image courtesy of the CDC; Boggle photograph courtesy of Angelina on Flickr; MIT campus map image courtesy of RahulG on Flickr.](mit600.jpg){:.inline }
 
-*Edition: September 2013*
+*Edition: September 2014*
 
-This subject is aimed at students with little or no programming experience. It
-aims to provide students with an understanding of the role computation can
+This course is aimed at students with a little bit of programming experience.
+It aims to provide students with an understanding of the role computation can
 play in solving problems. It also aims to help students, regardless of their
 major, to feel justifiably confident of their ability to write small programs
 that allow them to accomplish useful goals. The class will use the Python
-programming language.
+programming language and introduce you to object-oriented programming.
 
 ## Staff
 
-The course's staff consists of your instructor and several student assistants.
 Due to the size of the course, we can't usually respond to email inquiries
 about your problem sets or organizational matters. You are encouraged to speak
 to a student assistant or the instructor at the lab.
 
-### Instructor
+*   For planning and exceptions  
+    <help@mprog.nl>
 
-Martijn Stegeman  
-<stegeman@uva.nl>  
-phone: (020) 525 5235
+*   Martijn Stegeman  
+    <stegeman@uva.nl>  
+    phone: (020) 525 5235
+
+*   Teaching assistants  
+    Tim Doolan & Maarten Inja
 
 ## Goals for this course
 
@@ -72,53 +75,25 @@ courses, having an ability to memorize facts will be of little help in
 Programming in Python. This course is about learning to solve problems, not
 learning facts. (This, by the way, is exactly why all exams are open book.)
 
-## Prerequisites
-
-This course is aimed at students with little or no prior programming
-experience but a desire to understand computational approaches to problem
-solving. Now, by definition, none of you are under-qualified for this course.
-
-Since computer programming involves computational modes of thinking, it will
-help to have some mathematical and logical aptitude. You should be confident
-with your math skills up to pre-calculus (e.g. differentation, logarithms), but
-nothing too fancy.
-
 ## Expectations
 
-You are expected to watch all lectures and sections, submit eight problem sets,
-take two quizzes, and submit a final project. You are also expected to attend a
-minimum amount of lab sessions in order to get you moving quickly through the
-course.
+You are expected to watch all lectures and sections, attend one weekly class
+with your student assistant, submit seven problem sets and take a quiz. You are
+also expected to attend a minimum amount of lab sessions in order to get you
+moving quickly through the course: 8 hours a week in total.
 
 ## Grades
 
-You will receive a number grade for the course if:
+You will receive a grade for the course if:
 
-* you've attended lab sessions as agreed upon;
+* you've attended workshops and labs as agreed upon;
 * you've submitted every problem set working and on time;
-* you've passed the quizzes.
+* you've passed the quiz.
 
-We are most certain that every student is able to pass the course!
+The grade will be determined using the following weights:
 
-<div class="row">
-<div class="col-lg-6">
-
-The grade of **Part 1** will be determined using the following weights:
-
-* Problem Sets 0--5: 100%
-* Quiz 1 needs to be passed
-
-</div>
-
-<div class="col-lg-6">
-
-The grade of **Part 2** will be determined using the following weights:
-
-* Problem Sets 6--11: 100%
-* Quiz 2 needs to be passed
-
-</div>
-</div>
+* Problem Sets: 100%
+* Quiz: 0%, but needs to be passed
 
 Know that this course draws quite the spectrum of students, including "those
 less comfortable", "those more comfortable", and those somewhere in between.
