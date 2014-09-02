@@ -1,17 +1,13 @@
 # Schedule
 
-## Week 1: Objects and recursion
+## Week 1: Learn Python
 
-- Lecture 5
-- Recitation 3 if you need a bit more
-- Lecture 6
-- Recitation 4 if you need a bit more
-- Lecture 7
-- Lecture 8
-- Recitation A if you need a bit more
-- Lecture 9
-- Lecture 10
-- Due: Problem Set 4
+* Need a refresher of Python objects? Watch Lecture 5: [Objects in Python](/lectures/lecture-5).
+* Lecture 8: [Efficiency and order of growth](/lectures/lecture-8)
+* Recitation A: [Algorithm Complexity and Class Review](/recitations/recitation-a)
+* Lecture 9: [Memory and Search Methods](/lectures/lecture-9)
+* Lecture 10: [Hashing and Classes](/lectures/lecture-10)
+* Due: [Problem Set 0](/problem-sets/problem-set-0)
 
 ## Week 2: Debugging, efficiency and classes
 
