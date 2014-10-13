@@ -10,9 +10,7 @@ beaver... err, the nocturnal MIT engineer... hates the sun).
 
 ### Getting Started
 
-Download the files [here]:
-
-[here]: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-24-avoiding-statistical-fallacies/ps11.zip
+Download [the files](ps11.zip):
 
 * ps11.py: code skeleton
 * graph.py: a set of graph-related data structures (Digraph, Node, and Edge) that you can use
